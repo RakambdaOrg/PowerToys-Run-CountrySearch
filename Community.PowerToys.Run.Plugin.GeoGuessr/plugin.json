@@ -1,0 +1,14 @@
+﻿{
+  "ID": "77F3BA9738C64452B128F24E1B7E7B44",
+  "ActionKeyword": "geo",
+  "IsGlobal": false,
+  "Name": "GeoGuessr",
+  "Author": "couchoud-t,muller-j",
+  "Version": "0.0.1",
+  "Language": "csharp",
+  "Website": "https://github.com/couchoud-t/PowerToys-Run-GeoGuessr",
+  "ExecuteFileName": "Community.PowerToys.Run.Plugin.GeoGuessr.dll",
+  "IcoPathDark": "Images\\geoguessr.dark.png",
+  "IcoPathLight": "Images\\geoguessr.light.png",
+  "DynamicLoading": true
+}
