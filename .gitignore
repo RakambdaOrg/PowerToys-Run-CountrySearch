@@ -1,2 +1,5 @@
 /.idea
+/.vs
+/PowerToys-Run-GeoGuessr.sln.DotSettings.user
+/Community.PowerToys.Run.Plugin.GeoGuessr/bin
 /Community.PowerToys.Run.Plugin.GeoGuessr/obj

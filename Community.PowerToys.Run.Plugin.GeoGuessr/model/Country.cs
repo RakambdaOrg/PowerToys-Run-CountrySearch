@@ -8,4 +8,9 @@ public class Country
     public string name { get; set; }
     public string region { get; set; }
     public Road road { get; set; }
+
+    public string Describe()
+    {
+        return $"Region: {region}\nRoad side: {road.side}\nDomain: {domain}";
+    }
 }

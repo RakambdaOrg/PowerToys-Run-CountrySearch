@@ -1,5 +1,4 @@
 ﻿using System.IO;
-using System.Runtime.InteropServices;
 using System.Text.Json;
 using ManagedCommon;
 using Wox.Plugin;
@@ -27,8 +26,9 @@ namespace PowerToys_Run_GeoGuessr
                 .Select(country => new Result
                     {
                         QueryTextDisplay = query.Search,
-                        IcoPath = IconPath,
+                        IcoPath = country.icon,
                         Title = country.name,
+                        SubTitle = country.Describe(),
                         Score = 1,
                         Action = _ => true
                     }
@@ -46,7 +46,27 @@ namespace PowerToys_Run_GeoGuessr
             var jsonString = File.ReadAllText("Resources\\countries.json");
             countries = JsonSerializer.Deserialize<Countries>(jsonString) ?? new Countries() { countries = [] };
 
-            database = new Dictionary<string, IEnumerable<Country>>(); // TODO
+            database = new Dictionary<string, IEnumerable<Country>>();
+            foreach (var country in countries.countries.Where(country => !country.name.Equals("")))
+            {
+                AppendToKey(database, country.name, country);
+                AppendToKey(database, country.region, country);
+                AppendToKey(database, country.domain, country);
+                AppendToKey(database, country.road.side, country);
+                country.flag.colors.ForEach(val => AppendToKey(database, val, country));
+                country.flag.features.ForEach(val => AppendToKey(database, val, country));
+            }
+        }
+
+        private static void AppendToKey<TK, TV>(Dictionary<TK, IEnumerable<TV>> dictionary, TK key, TV value) where TK : notnull
+        {
+            if (!dictionary.TryGetValue(key, out var values))
+            {
+                values = new List<TV>();
+                dictionary.Add(key, values);
+            }
+
+            dictionary[key] = values.Append(value);
         }
 
         public void Dispose()
@@ -71,7 +91,7 @@ namespace PowerToys_Run_GeoGuessr
             Disposed = true;
         }
 
-        private void UpdateIconPath(Theme theme) => IconPath = theme == Theme.Light || theme == Theme.HighContrastWhite ? Context?.CurrentPluginMetadata.IcoPathLight : Context?.CurrentPluginMetadata.IcoPathDark;
+        private void UpdateIconPath(Theme theme) => IconPath = theme is Theme.Light or Theme.HighContrastWhite ? Context?.CurrentPluginMetadata.IcoPathLight : Context?.CurrentPluginMetadata.IcoPathDark;
 
         private void OnThemeChanged(Theme currentTheme, Theme newTheme) => UpdateIconPath(newTheme);
     }
