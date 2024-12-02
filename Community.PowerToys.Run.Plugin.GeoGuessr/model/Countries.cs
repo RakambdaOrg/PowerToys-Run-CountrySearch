@@ -2,5 +2,5 @@
 
 public class Countries
 {
-    public List<Country> countries  { get; set; }
+    public List<Country> countries { get; set; }
 }

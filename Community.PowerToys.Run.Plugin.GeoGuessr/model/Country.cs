@@ -11,6 +11,9 @@ public class Country
 
     public string Describe()
     {
-        return $"Region: {region}\nRoad side: {road.side}\nDomain: {domain}";
+        var formattedRegion = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(region);
+        var formattedRoadSide = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(road.side);
+
+        return $"Region: {formattedRegion}\nRoad side: {formattedRoadSide}\nDomain: {domain}";
     }
 }
