@@ -19,10 +19,18 @@ namespace PowerToys_Run_GeoGuessr
 
         public List<Result> Query(Query query)
         {
-            return query.Terms
+            var matchingTermCountry = query.Terms
                 .Where(term => database.ContainsKey(term))
                 .Select(term => database[term])
-                .Aggregate(new List<Country>() as IEnumerable<Country>, (a, b) => a.Intersect(b))
+                .ToList();
+
+            var matchingAllTerms = matchingTermCountry.Count <= 1
+                // If we have 0 or 1 term, return them as is
+                ? matchingTermCountry.SelectMany((source, _) => source)
+                // If we have more than 2 terms, take the intersection of the results
+                : matchingTermCountry.Aggregate((a, b) => a.Intersect(b));
+
+            return matchingAllTerms
                 .Select(country => new Result
                     {
                         QueryTextDisplay = query.Search,
@@ -46,7 +54,7 @@ namespace PowerToys_Run_GeoGuessr
             InitDatabase(Path.Join(Context.CurrentPluginMetadata.PluginDirectory, "Resources", "countries.json"));
         }
 
-        private void InitDatabase(string countriesJsonPath)
+        public void InitDatabase(string countriesJsonPath)
         {
             var jsonString = File.ReadAllText(countriesJsonPath);
             countries = JsonSerializer.Deserialize<Countries>(jsonString) ?? new Countries() { countries = [] };

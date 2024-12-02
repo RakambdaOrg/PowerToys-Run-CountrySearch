@@ -1,0 +1,23 @@
+﻿{
+  "countries": [
+    {
+      "domain": "d1",
+      "flag": {
+        "colors": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "features": [
+          "f1"
+        ]
+      },
+      "icon": "i1",
+      "name": "id1",
+      "region": "r1",
+      "road": {
+        "side": "s1"
+      }
+    }
+  ]
+}
