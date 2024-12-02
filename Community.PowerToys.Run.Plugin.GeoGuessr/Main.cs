@@ -80,6 +80,7 @@ public class Main : IPlugin, IDisposable
             AppendToKey(Database, country.name, country);
             AppendToKey(Database, country.region, country);
             AppendToKey(Database, country.domain, country);
+            AppendToKey(Database, country.phone.code, country);
             AppendToKey(Database, country.road.side, country);
             country.flag.colors.ForEach(val => AppendToKey(Database, val, country));
             country.flag.features.ForEach(val => AppendToKey(Database, val, country));

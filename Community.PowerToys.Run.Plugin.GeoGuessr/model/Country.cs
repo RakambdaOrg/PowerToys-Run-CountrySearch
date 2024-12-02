@@ -7,6 +7,7 @@ public class Country
     public string icon { get; set; }
     public string name { get; set; }
     public string region { get; set; }
+    public Phone phone { get; set; }
     public Road road { get; set; }
 
     public string Describe()
@@ -14,6 +15,11 @@ public class Country
         var formattedRegion = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(region);
         var formattedRoadSide = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(road.side);
 
-        return $"Region: {formattedRegion}\nRoad side: {formattedRoadSide}\nDomain: {domain}";
+        return $"""
+                Region: {formattedRegion}
+                Road side: {formattedRoadSide}
+                Domain: {domain}
+                Phone code: {phone.code}
+                """;
     }
 }
