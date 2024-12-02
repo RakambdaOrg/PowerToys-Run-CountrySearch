@@ -43,7 +43,12 @@ namespace PowerToys_Run_GeoGuessr
             Context.API.ThemeChanged += OnThemeChanged;
             UpdateIconPath(Context.API.GetCurrentTheme());
 
-            var jsonString = File.ReadAllText("Resources\\countries.json");
+            InitDatabase(Path.Join(Context.CurrentPluginMetadata.PluginDirectory, "Resources", "countries.json"));
+        }
+
+        private void InitDatabase(string countriesJsonPath)
+        {
+            var jsonString = File.ReadAllText(countriesJsonPath);
             countries = JsonSerializer.Deserialize<Countries>(jsonString) ?? new Countries() { countries = [] };
 
             database = new Dictionary<string, IEnumerable<Country>>();
