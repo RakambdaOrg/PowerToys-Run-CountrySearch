@@ -1,4 +1,4 @@
-# GeoGuessr Plugin for PowerToys Run
+# Country Search Plugin for PowerToys Run
 
 A [PowerToys Run](https://aka.ms/PowerToysOverview_PowerToysRun) plugin for looking up information about countries.
 
@@ -6,7 +6,7 @@ A [PowerToys Run](https://aka.ms/PowerToysOverview_PowerToysRun) plugin for look
 
 ### Search a country
 
-You can search up a country by giving giving info you see about it. It includes : 
+You can search up a country by giving info you see about it. It includes : 
 * Domain
 * Phone code
 * Driving side
@@ -24,13 +24,13 @@ You can search up a country by giving giving info you see about it. It includes 
 ### Via [ptr](https://github.com/8LWXpg/ptr)
 
 ```shell
-ptr add GeoGuessr RakambdaOrg/PowerToys-Run-GeoGuessr
+ptr add CountrySearch RakambdaOrg/PowerToys-Run-CountrySearch
 ```
 
 ## Usage
 
 1. Open PowerToys Run (default shortcut is <kbd>Alt+Space</kbd>).
-2. Type `geo` and add as many search terms you want.
+2. Type `cs` and add as many search terms you want.
 
 ## Building
 
