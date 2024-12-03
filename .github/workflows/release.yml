@@ -10,7 +10,7 @@ env:
 
 jobs:
   publish:
-    name: Publish Miner on DockerHub
+    name: Add artifact to release (${{matrix.platform}})
     runs-on: windows-latest
     permissions:
       contents: write
