@@ -30,4 +30,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{env.PLUGIN_NAME}}-${{matrix.platform}}
-          path: "Community.PowerToys.Run.Plugin.CountrySearch\\bin\\${{matrix.platform}}\\${env:PLUGIN_NAME}"
+          path: "Community.PowerToys.Run.Plugin.CountrySearch\\bin\\${{matrix.platform}}\\${{env.PLUGIN_NAME}}"
