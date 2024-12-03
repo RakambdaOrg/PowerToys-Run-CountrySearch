@@ -27,7 +27,7 @@ jobs:
           Remove-Item -Path Community.PowerToys.Run.Plugin.CountrySearch\bin\* -Recurse -Include *.xml, *.pdb, PowerToys.*, Wox.*
           Rename-Item -Path Community.PowerToys.Run.Plugin.CountrySearch\bin\${{matrix.platform}}\Release -NewName $env:PLUGIN_NAME
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: ${{env.PLUGIN_NAME}}
+          name: ${{env.PLUGIN_NAME}}-${{matrix.platform}}
           path: "Community.PowerToys.Run.Plugin.CountrySearch\\bin\\${{matrix.platform}}\\${env:PLUGIN_NAME}"
