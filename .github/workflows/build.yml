@@ -26,13 +26,8 @@ jobs:
         run: |
           Remove-Item -Path Community.PowerToys.Run.Plugin.CountrySearch\bin\* -Recurse -Include *.xml, *.pdb, PowerToys.*, Wox.*
           Rename-Item -Path Community.PowerToys.Run.Plugin.CountrySearch\bin\${{matrix.platform}}\Release -NewName $env:PLUGIN_NAME
-          if (Test-Path -Path "${{env.PLUGIN_NAME}}-${{matrix.platform}}.zip")
-          {
-             Remove-Item -Path "${{env.PLUGIN_NAME}}-${{matrix.platform}}.zip" 
-          }
-          Compress-Archive -Path Community.PowerToys.Run.Plugin.CountrySearch\bin\${{matrix.platform}}\$env:PLUGIN_NAME -DestinationPath "${{env.PLUGIN_NAME}}-${{matrix.platform}}.zip"
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: ${{env.PLUGIN_NAME}}
-          path: "**/*.zip"
+          path: "Community.PowerToys.Run.Plugin.CountrySearch\bin\${{matrix.platform}}\$env:PLUGIN_NAME"
