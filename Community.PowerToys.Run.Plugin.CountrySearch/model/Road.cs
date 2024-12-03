@@ -1,4 +1,4 @@
-﻿namespace PowerToys_Run_GeoGuessr;
+﻿namespace PowerToys_Run_CountrySearch;
 
 public class Road
 {

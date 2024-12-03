@@ -1,0 +1,14 @@
+﻿{
+  "ID": "77F3BA9738C64452B128F24E1B7E7B44",
+  "ActionKeyword": "cs",
+  "IsGlobal": false,
+  "Name": "CountrySearch",
+  "Author": "Rakambda,muller-j",
+  "Version": "0.0.2",
+  "Language": "csharp",
+  "Website": "https://github.com/RakambdaOrg/PowerToys-Run-CountrySearch",
+  "ExecuteFileName": "Community.PowerToys.Run.Plugin.CountrySearch.dll",
+  "IcoPathDark": "Images\\icon.dark.png",
+  "IcoPathLight": "Images\\icon.light.png",
+  "DynamicLoading": true
+}

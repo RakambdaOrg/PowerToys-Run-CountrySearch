@@ -1,7 +1,7 @@
 /.idea
 /.vs
-/PowerToys-Run-GeoGuessr.sln.DotSettings.user
-/Community.PowerToys.Run.Plugin.GeoGuessr/bin
-/Community.PowerToys.Run.Plugin.GeoGuessr/obj
-/Community.PowerToys.Run.Plugin.GeoGuessr.UnitTest/bin
-/Community.PowerToys.Run.Plugin.GeoGuessr.UnitTest/obj
+/PowerToys-Run-CountrySearch.sln.DotSettings.user
+/Community.PowerToys.Run.Plugin.CountrySearch/bin
+/Community.PowerToys.Run.Plugin.CountrySearch/obj
+/Community.PowerToys.Run.Plugin.CountrySearch.UnitTest/bin
+/Community.PowerToys.Run.Plugin.CountrySearch.UnitTest/obj

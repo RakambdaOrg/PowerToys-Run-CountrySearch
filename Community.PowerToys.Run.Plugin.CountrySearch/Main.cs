@@ -4,13 +4,13 @@ using ManagedCommon;
 using Wox.Plugin;
 using Wox.Plugin.Logger;
 
-namespace PowerToys_Run_GeoGuessr;
+namespace PowerToys_Run_CountrySearch;
 
 public class Main : IPlugin, IDisposable
 {
     public static string PluginID => "77F3BA9738C64452B128F24E1B7E7B44";
-    public string Name => "GeoGuessr";
-    public string Description => "Be a good cheater";
+    public string Name => "CountrySearch";
+    public string Description => "Try to find a country based on its information";
 
     private PluginInitContext? Context { get; set; }
     private string? PluginPath { get; set; }

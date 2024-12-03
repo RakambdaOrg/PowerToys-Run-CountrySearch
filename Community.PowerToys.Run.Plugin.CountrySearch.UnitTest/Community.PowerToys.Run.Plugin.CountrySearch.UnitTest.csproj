@@ -4,7 +4,7 @@
         <TargetFramework>net8.0-windows</TargetFramework>
         <Platforms>x64;ARM64</Platforms>
         <PlatformTarget>$(Platform)</PlatformTarget>
-        <RootNamespace>PowerToys-Run-GeoGuessr-UnitTest</RootNamespace>
+        <RootNamespace>PowerToys-Run-CountrySearch-UnitTest</RootNamespace>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     </PropertyGroup>
@@ -18,7 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Community.PowerToys.Run.Plugin.GeoGuessr\Community.PowerToys.Run.Plugin.GeoGuessr.csproj" />
+        <ProjectReference Include="..\Community.PowerToys.Run.Plugin.CountrySearch\Community.PowerToys.Run.Plugin.CountrySearch.csproj" />
     </ItemGroup>
     
     <ItemGroup>

@@ -5,7 +5,7 @@
         <Platforms>x64;ARM64</Platforms>
         <PlatformTarget>$(Platform)</PlatformTarget>
         <UseWPF>true</UseWPF>
-        <RootNamespace>PowerToys-Run-GeoGuessr</RootNamespace>
+        <RootNamespace>PowerToys-Run-CountrySearch</RootNamespace>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     </PropertyGroup>

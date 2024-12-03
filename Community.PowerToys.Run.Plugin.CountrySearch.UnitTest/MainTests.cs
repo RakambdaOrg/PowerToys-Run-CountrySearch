@@ -1,9 +1,9 @@
 ﻿using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PowerToys_Run_GeoGuessr;
+using PowerToys_Run_CountrySearch;
 using Wox.Plugin;
 
-namespace PowerToys_Run_GeoGuessr_UnitTest;
+namespace PowerToys_Run_CountrySearch_UnitTest;
 
 [TestClass]
 public class MainTests

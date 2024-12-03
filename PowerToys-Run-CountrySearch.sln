@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.PowerToys.Run.Plugin.GeoGuessr", "Community.PowerToys.Run.Plugin.GeoGuessr\Community.PowerToys.Run.Plugin.GeoGuessr.csproj", "{77F3BA97-38C6-4452-B128-F24E1B7E7B44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.PowerToys.Run.Plugin.CountrySearch", "Community.PowerToys.Run.Plugin.CountrySearch\Community.PowerToys.Run.Plugin.CountrySearch.csproj", "{77F3BA97-38C6-4452-B128-F24E1B7E7B44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.PowerToys.Run.Plugin.GeoGuessr.UnitTest", "Community.PowerToys.Run.Plugin.GeoGuessr.UnitTest\Community.PowerToys.Run.Plugin.GeoGuessr.UnitTest.csproj", "{B8E64D81-6266-4D08-9339-0C6E95599992}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.PowerToys.Run.Plugin.CountrySearch.UnitTest", "Community.PowerToys.Run.Plugin.CountrySearch.UnitTest\Community.PowerToys.Run.Plugin.CountrySearch.UnitTest.csproj", "{B8E64D81-6266-4D08-9339-0C6E95599992}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
