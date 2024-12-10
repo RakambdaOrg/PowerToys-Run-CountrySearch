@@ -4,7 +4,7 @@
         <TargetFramework>net8.0-windows</TargetFramework>
         <Platforms>x64;ARM64</Platforms>
         <PlatformTarget>$(Platform)</PlatformTarget>
-        <RootNamespace>PowerToys-Run-CountrySearch-UnitTest</RootNamespace>
+        <RootNamespace>PowerToys_Run_CountrySearch_UnitTest</RootNamespace>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     </PropertyGroup>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Platforms>x64</Platforms>
+        <PlatformTarget>$(Platform)</PlatformTarget>
+        <RootNamespace>PowerToys_Run_CountrySearch_Generator</RootNamespace>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+        <OutputType>Exe</OutputType>
+        <StartupObject>PowerToys_Run_CountrySearch_Generator.MainGenerator</StartupObject>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <ProjectReference Include="..\Community.PowerToys.Run.Plugin.CountrySearch\Community.PowerToys.Run.Plugin.CountrySearch.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="HtmlAgilityPack" Version="1.11.71" />
+    </ItemGroup>
+</Project>

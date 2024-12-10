@@ -1,6 +1,6 @@
 ﻿using System.IO;
-using System.Text.Json;
 using ManagedCommon;
+using PowerToys_Run_CountrySearch.model;
 using Wox.Plugin;
 using Wox.Plugin.Logger;
 
@@ -71,8 +71,7 @@ public class Main : IPlugin, IDisposable
 
     public void InitDatabase(string countriesJsonPath)
     {
-        var jsonString = File.ReadAllText(countriesJsonPath);
-        Countries = JsonSerializer.Deserialize<Countries>(jsonString) ?? new Countries { countries = [] };
+        Countries = CountriesReader.ReadFile(countriesJsonPath);
 
         Database = new Dictionary<string, IEnumerable<Country>>();
         foreach (var country in Countries.countries.Where(country => !country.name.Equals("")))

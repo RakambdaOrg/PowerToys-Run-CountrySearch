@@ -1,4 +1,4 @@
-﻿namespace PowerToys_Run_CountrySearch;
+﻿namespace PowerToys_Run_CountrySearch.model;
 
 public class Country
 {

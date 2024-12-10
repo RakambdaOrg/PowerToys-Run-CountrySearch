@@ -5,7 +5,7 @@
         <Platforms>x64;ARM64</Platforms>
         <PlatformTarget>$(Platform)</PlatformTarget>
         <UseWPF>true</UseWPF>
-        <RootNamespace>PowerToys-Run-CountrySearch</RootNamespace>
+        <RootNamespace>PowerToys_Run_CountrySearch</RootNamespace>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     </PropertyGroup>

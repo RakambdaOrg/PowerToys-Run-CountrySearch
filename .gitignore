@@ -3,5 +3,7 @@
 /PowerToys-Run-CountrySearch.sln.DotSettings.user
 /Community.PowerToys.Run.Plugin.CountrySearch/bin
 /Community.PowerToys.Run.Plugin.CountrySearch/obj
+/Community.PowerToys.Run.Plugin.CountrySearch.Generator/bin
+/Community.PowerToys.Run.Plugin.CountrySearch.Generator/obj
 /Community.PowerToys.Run.Plugin.CountrySearch.UnitTest/bin
 /Community.PowerToys.Run.Plugin.CountrySearch.UnitTest/obj
