@@ -8,7 +8,7 @@ namespace PowerToys_Run_CountrySearch_Generator.extractor;
 public partial class DomainImageExtractor : IExtractor
 {
     private static readonly Regex DomainRegex = DomainRegexGenerator();
-    
+
     [GeneratedRegex(@"^(?<country>(.+?)) - (?:\.(?<domain>\w+))")]
     private static partial Regex DomainRegexGenerator();
 

@@ -8,7 +8,7 @@ namespace PowerToys_Run_CountrySearch_Generator.extractor;
 public partial class PhoneCodeExtractor : IExtractor
 {
     private static readonly Regex PhoneCodeRegex = PhoneCodeRegexGenerator();
-    
+
     [GeneratedRegex(@"^\+(?<code>\d+)(\s+\d+)* - (?<country>(.+))$")]
     private static partial Regex PhoneCodeRegexGenerator();
 

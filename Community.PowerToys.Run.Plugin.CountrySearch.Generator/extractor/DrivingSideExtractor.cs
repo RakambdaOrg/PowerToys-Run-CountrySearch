@@ -8,7 +8,7 @@ namespace PowerToys_Run_CountrySearch_Generator.extractor;
 public partial class DrivingSideExtractor : IExtractor
 {
     private static readonly Regex SideRegex = SideRegexGenerator();
-    
+
     [GeneratedRegex("^(?<country>(.+?)): (?<side>(?:Right|Left))")]
     private static partial Regex SideRegexGenerator();
 

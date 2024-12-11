@@ -13,14 +13,14 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_botswana.svg",
-      "name": "botswana",
-      "region": "africa",
+      "icon": "https://geohints.com/Sources/Flags/flag_botswana.svg",
+      "name": "Botswana",
+      "region": "Africa",
       "phone": {
         "code": "267"
       },
       "road": {
-        "side": "left"
+        "side": "Left"
       }
     },
     {
@@ -40,14 +40,14 @@
           "leaf"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_eswatini.svg",
-      "name": "eswatini",
-      "region": "africa",
+      "icon": "https://geohints.com/Sources/Flags/flag_eswatini.svg",
+      "name": "Eswatini",
+      "region": "Africa",
       "phone": {
         "code": "268"
       },
       "road": {
-        "side": "left"
+        "side": "Left"
       }
     },
     {
@@ -65,14 +65,14 @@
           "star"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_ghana.svg",
-      "name": "ghana",
-      "region": "africa",
+      "icon": "https://geohints.com/Sources/Flags/flag_ghana.svg",
+      "name": "Ghana",
+      "region": "Africa",
       "phone": {
         "code": "233"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -90,14 +90,14 @@
           "shield"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_kenya.svg",
-      "name": "kenya",
-      "region": "africa",
+      "icon": "https://geohints.com/Sources/Flags/flag_kenya.svg",
+      "name": "Kenya",
+      "region": "Africa",
       "phone": {
         "code": "254"
       },
       "road": {
-        "side": "left"
+        "side": "Left"
       }
     },
     {
@@ -113,14 +113,14 @@
           "hat"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_lesotho.svg",
-      "name": "lesotho",
-      "region": "africa",
+      "icon": "https://geohints.com/Sources/Flags/flag_lesotho.svg",
+      "name": "Lesotho",
+      "region": "Africa",
       "phone": {
         "code": "266"
       },
       "road": {
-        "side": "left"
+        "side": "Left"
       }
     },
     {
@@ -136,14 +136,14 @@
           "grid"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_madagascar.svg",
-      "name": "madagascar",
-      "region": "africa",
+      "icon": "https://geohints.com/Sources/Flags/flag_madagascar.svg",
+      "name": "Madagascar",
+      "region": "Africa",
       "phone": {
         "code": "261"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -158,14 +158,14 @@
           "vertical"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_nigeria.svg",
-      "name": "nigeria",
-      "region": "africa",
+      "icon": "https://geohints.com/Sources/Flags/flag_nigeria.svg",
+      "name": "Nigeria",
+      "region": "Africa",
       "phone": {
         "code": "234"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -182,14 +182,14 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_rwanda.svg",
-      "name": "rwanda",
-      "region": "africa",
+      "icon": "https://geohints.com/Sources/Flags/flag_rwanda.svg",
+      "name": "Rwanda",
+      "region": "Africa",
       "phone": {
         "code": ""
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -206,14 +206,14 @@
           "vertical"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_senegal.svg",
-      "name": "senegal",
-      "region": "africa",
+      "icon": "https://geohints.com/Sources/Flags/flag_senegal.svg",
+      "name": "Senegal",
+      "region": "Africa",
       "phone": {
         "code": "221"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -232,14 +232,14 @@
           "ymca"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_south_africa.svg",
-      "name": "south africa",
-      "region": "africa",
+      "icon": "https://geohints.com/Sources/Flags/flag_south_africa.svg",
+      "name": "South Africa",
+      "region": "Africa",
       "phone": {
         "code": "27"
       },
       "road": {
-        "side": "left"
+        "side": "Left"
       }
     },
     {
@@ -256,14 +256,14 @@
           "moon"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_tunisia.svg",
-      "name": "tunisia",
-      "region": "africa",
+      "icon": "https://geohints.com/Sources/Flags/flag_tunisia.svg",
+      "name": "Tunisia",
+      "region": "Africa",
       "phone": {
         "code": "216"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -281,14 +281,14 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_uganda.svg",
-      "name": "uganda",
-      "region": "africa",
+      "icon": "https://geohints.com/Sources/Flags/flag_uganda.svg",
+      "name": "Uganda",
+      "region": "Africa",
       "phone": {
         "code": "256"
       },
       "road": {
-        "side": "left"
+        "side": "Left"
       }
     },
     {
@@ -303,14 +303,14 @@
           "circle"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_bangladesh.svg",
-      "name": "bangladesh",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_bangladesh.svg",
+      "name": "Bangladesh",
+      "region": "Asia",
       "phone": {
         "code": "880"
       },
       "road": {
-        "side": "left"
+        "side": "Left"
       }
     },
     {
@@ -327,14 +327,14 @@
           "diagonal"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_bhutan.svg",
-      "name": "bhutan",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_bhutan.svg",
+      "name": "Bhutan",
+      "region": "Asia",
       "phone": {
         "code": "975"
       },
       "road": {
-        "side": "left"
+        "side": "Left"
       }
     },
     {
@@ -351,14 +351,14 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_cambodia.svg",
-      "name": "cambodia",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_cambodia.svg",
+      "name": "Cambodia",
+      "region": "Asia",
       "phone": {
         "code": "855"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -377,14 +377,14 @@
           "diagonal"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_christmas_island.svg",
-      "name": "christmas island",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_christmas_island.svg",
+      "name": "Christmas Island",
+      "region": "Asia",
       "phone": {
         "code": "61"
       },
       "road": {
-        "side": "left"
+        "side": "Left"
       }
     },
     {
@@ -402,14 +402,14 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_india.svg",
-      "name": "india",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_india.svg",
+      "name": "India",
+      "region": "Asia",
       "phone": {
         "code": "91"
       },
       "road": {
-        "side": "left"
+        "side": "Left"
       }
     },
     {
@@ -424,14 +424,14 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_indonesia.svg",
-      "name": "indonesia",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_indonesia.svg",
+      "name": "Indonesia",
+      "region": "Asia",
       "phone": {
         "code": "62"
       },
       "road": {
-        "side": "left"
+        "side": "Left"
       }
     },
     {
@@ -447,14 +447,14 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_israel.svg",
-      "name": "israel",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_israel.svg",
+      "name": "Israel",
+      "region": "Asia",
       "phone": {
         "code": "972"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -469,14 +469,14 @@
           "circle"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_japan.svg",
-      "name": "japan",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_japan.svg",
+      "name": "Japan",
+      "region": "Asia",
       "phone": {
         "code": "81"
       },
       "road": {
-        "side": "left"
+        "side": "Left"
       }
     },
     {
@@ -495,14 +495,14 @@
           "triangle"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_jordan.svg",
-      "name": "jordan",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_jordan.svg",
+      "name": "Jordan",
+      "region": "Asia",
       "phone": {
         "code": "962"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -517,14 +517,14 @@
           "sun"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_kyrgyzstan.svg",
-      "name": "kyrgyzstan",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_kyrgyzstan.svg",
+      "name": "Kyrgyzstan",
+      "region": "Asia",
       "phone": {
         "code": "996"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -541,14 +541,14 @@
           "circle"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_laos.svg",
-      "name": "laos",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_laos.svg",
+      "name": "Laos",
+      "region": "Asia",
       "phone": {
         "code": "856"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -567,14 +567,14 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_malaysia.svg",
-      "name": "malaysia",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_malaysia.svg",
+      "name": "Malaysia",
+      "region": "Asia",
       "phone": {
         "code": "60"
       },
       "road": {
-        "side": "left"
+        "side": "Left"
       }
     },
     {
@@ -591,14 +591,14 @@
           "vertical"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_mongolia.svg",
-      "name": "mongolia",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_mongolia.svg",
+      "name": "Mongolia",
+      "region": "Asia",
       "phone": {
         "code": "976"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -616,14 +616,14 @@
           "star"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_philippines.svg",
-      "name": "philippines",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_philippines.svg",
+      "name": "Philippines",
+      "region": "Asia",
       "phone": {
         "code": "63"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -639,14 +639,14 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_russia.svg",
-      "name": "russia",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_russia.svg",
+      "name": "Russia",
+      "region": "Asia",
       "phone": {
         "code": "7"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -663,14 +663,14 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_singapore.svg",
-      "name": "singapore",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_singapore.svg",
+      "name": "Singapore",
+      "region": "Asia",
       "phone": {
         "code": "65"
       },
       "road": {
-        "side": "left"
+        "side": "Left"
       }
     },
     {
@@ -688,14 +688,14 @@
           "pepsi"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_south_korea.svg",
-      "name": "south korea",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_south_korea.svg",
+      "name": "South Korea",
+      "region": "Asia",
       "phone": {
         "code": "82"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -714,14 +714,14 @@
           "grid"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_sri_lanka.svg",
-      "name": "sri lanka",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_sri_lanka.svg",
+      "name": "Sri Lanka",
+      "region": "Asia",
       "phone": {
         "code": "94"
       },
       "road": {
-        "side": "left"
+        "side": "Left"
       }
     },
     {
@@ -738,14 +738,14 @@
           "grid"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_taiwan.svg",
-      "name": "taiwan",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_taiwan.svg",
+      "name": "Taiwan",
+      "region": "Asia",
       "phone": {
         "code": "886"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -761,14 +761,14 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_thailand.svg",
-      "name": "thailand",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_thailand.svg",
+      "name": "Thailand",
+      "region": "Asia",
       "phone": {
         "code": "66"
       },
       "road": {
-        "side": "left"
+        "side": "Left"
       }
     },
     {
@@ -786,14 +786,14 @@
           "grid"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_united_arab_emirates.svg",
-      "name": "united arab emirates",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_united_arab_emirates.svg",
+      "name": "United Arab Emirates",
+      "region": "Asia",
       "phone": {
         "code": "971"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {
@@ -808,14 +808,14 @@
           "star"
         ]
       },
-      "icon": "https://geohints.com/sources/flags/flag_vietnam.svg",
-      "name": "vietnam",
-      "region": "asia",
+      "icon": "https://geohints.com/Sources/Flags/flag_vietnam.svg",
+      "name": "Vietnam",
+      "region": "Asia",
       "phone": {
         "code": "84"
       },
       "road": {
-        "side": "right"
+        "side": "Right"
       }
     },
     {

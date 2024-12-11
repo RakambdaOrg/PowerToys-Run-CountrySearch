@@ -10,6 +10,6 @@ public interface IExtractor
     {
         return false;
     }
-    
+
     Dictionary<string, string> Extract();
 }

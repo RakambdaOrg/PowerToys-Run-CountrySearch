@@ -14,7 +14,7 @@ public class FlagImageExtractor : IExtractor
     public Dictionary<string, string> Extract()
     {
         var values = new Dictionary<string, string>();
-        
+
         var web = new HtmlWeb();
         var doc = web.Load("https://geohints.com/Flags");
 
@@ -27,6 +27,7 @@ public class FlagImageExtractor : IExtractor
             {
                 throw new Exception("Failed to extract flag image information");
             }
+
             values.TryAdd(country, $"https://geohints.com/{flagPath}");
         }
 
