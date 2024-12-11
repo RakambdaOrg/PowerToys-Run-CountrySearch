@@ -36,6 +36,7 @@ public static class MainGenerator
                 if (country == null)
                 {
                     country = new Country();
+                    country.name = countryName;
                     countries.countries.Add(country);
                 }
 
