@@ -2,6 +2,7 @@
 using System;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Text.Json;
 using PowerToys_Run_CountrySearch_Generator.extractor;
 using PowerToys_Run_CountrySearch;
@@ -36,7 +37,7 @@ public static class MainGenerator
                     country = CreateNewCountry(countryName);
                     countries.countries.Add(country);
                 }
-
+                
                 SetValue(country, value, extractor.GetJsonPath(), extractor.OverrideIfSet());
             }
         }
@@ -44,6 +45,15 @@ public static class MainGenerator
         var jsonWriteOptions = new JsonSerializerOptions { WriteIndented = true };
         var jsonContent = JsonSerializer.Serialize(countries, jsonWriteOptions);
         File.WriteAllText(countriesJsonPath, jsonContent);
+    }
+
+    private static string? GetCountryCodeFromName(string name)
+    {
+        return CultureInfo
+            .GetCultures(CultureTypes.SpecificCultures)
+            .Select(c => new RegionInfo(c.Name))
+            .FirstOrDefault(r => r.EnglishName == name)
+            ?.TwoLetterISORegionName.ToLowerInvariant();
     }
 
     private static void SetValue(object? obj, string value, string[] jsonPath, bool overrideIfSet)
@@ -84,7 +94,7 @@ public static class MainGenerator
 
     private static Country CreateNewCountry(string name)
     {
-        return new Country
+        var country = new Country
         {
             domain = "",
             flag = new Flag
@@ -105,5 +115,13 @@ public static class MainGenerator
                 side = ""
             }
         };
+
+        var isoCode = GetCountryCodeFromName(name);
+        if (isoCode != null)
+        {
+            country.flag.file = $"{isoCode}.png";
+        }
+
+        return country;
     }
 }

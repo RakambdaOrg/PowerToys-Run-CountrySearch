@@ -821,7 +821,7 @@
     {
       "domain": "al",
       "flag": {
-        "file": "",
+        "file": "al.png",
         "colors": [],
         "features": []
       },
@@ -838,7 +838,7 @@
     {
       "domain": "ad",
       "flag": {
-        "file": "",
+        "file": "ad.png",
         "colors": [],
         "features": []
       },
@@ -855,7 +855,7 @@
     {
       "domain": "at",
       "flag": {
-        "file": "",
+        "file": "at.png",
         "colors": [],
         "features": []
       },
@@ -872,7 +872,7 @@
     {
       "domain": "be",
       "flag": {
-        "file": "",
+        "file": "be.png",
         "colors": [],
         "features": []
       },
@@ -889,7 +889,7 @@
     {
       "domain": "bg",
       "flag": {
-        "file": "",
+        "file": "bg.png",
         "colors": [],
         "features": []
       },
@@ -906,7 +906,7 @@
     {
       "domain": "hr",
       "flag": {
-        "file": "",
+        "file": "hr.png",
         "colors": [],
         "features": []
       },
@@ -940,7 +940,7 @@
     {
       "domain": "dk",
       "flag": {
-        "file": "",
+        "file": "dk.png",
         "colors": [],
         "features": []
       },
@@ -957,7 +957,7 @@
     {
       "domain": "ee",
       "flag": {
-        "file": "",
+        "file": "ee.png",
         "colors": [],
         "features": []
       },
@@ -974,7 +974,7 @@
     {
       "domain": "fo",
       "flag": {
-        "file": "",
+        "file": "fo.png",
         "colors": [],
         "features": []
       },
@@ -991,7 +991,7 @@
     {
       "domain": "fi",
       "flag": {
-        "file": "",
+        "file": "fi.png",
         "colors": [],
         "features": []
       },
@@ -1008,7 +1008,7 @@
     {
       "domain": "fr",
       "flag": {
-        "file": "",
+        "file": "fr.png",
         "colors": [],
         "features": []
       },
@@ -1025,7 +1025,7 @@
     {
       "domain": "de",
       "flag": {
-        "file": "",
+        "file": "de.png",
         "colors": [],
         "features": []
       },
@@ -1042,7 +1042,7 @@
     {
       "domain": "gi",
       "flag": {
-        "file": "",
+        "file": "gi.png",
         "colors": [],
         "features": []
       },
@@ -1059,7 +1059,7 @@
     {
       "domain": "gr",
       "flag": {
-        "file": "",
+        "file": "gr.png",
         "colors": [],
         "features": []
       },
@@ -1076,7 +1076,7 @@
     {
       "domain": "hu",
       "flag": {
-        "file": "",
+        "file": "hu.png",
         "colors": [],
         "features": []
       },
@@ -1093,7 +1093,7 @@
     {
       "domain": "is",
       "flag": {
-        "file": "",
+        "file": "is.png",
         "colors": [],
         "features": []
       },
@@ -1110,7 +1110,7 @@
     {
       "domain": "ie",
       "flag": {
-        "file": "",
+        "file": "ie.png",
         "colors": [],
         "features": []
       },
@@ -1127,7 +1127,7 @@
     {
       "domain": "im",
       "flag": {
-        "file": "",
+        "file": "im.png",
         "colors": [],
         "features": []
       },
@@ -1144,7 +1144,7 @@
     {
       "domain": "it",
       "flag": {
-        "file": "",
+        "file": "it.png",
         "colors": [],
         "features": []
       },
@@ -1161,7 +1161,7 @@
     {
       "domain": "je",
       "flag": {
-        "file": "",
+        "file": "je.png",
         "colors": [],
         "features": []
       },
@@ -1178,7 +1178,7 @@
     {
       "domain": "lv",
       "flag": {
-        "file": "",
+        "file": "lv.png",
         "colors": [],
         "features": []
       },
@@ -1195,7 +1195,7 @@
     {
       "domain": "lt",
       "flag": {
-        "file": "",
+        "file": "lt.png",
         "colors": [],
         "features": []
       },
@@ -1212,7 +1212,7 @@
     {
       "domain": "lu",
       "flag": {
-        "file": "",
+        "file": "lu.png",
         "colors": [],
         "features": []
       },
@@ -1229,7 +1229,7 @@
     {
       "domain": "mt",
       "flag": {
-        "file": "",
+        "file": "mt.png",
         "colors": [],
         "features": []
       },
@@ -1246,7 +1246,7 @@
     {
       "domain": "mc",
       "flag": {
-        "file": "",
+        "file": "mc.png",
         "colors": [],
         "features": []
       },
@@ -1263,7 +1263,7 @@
     {
       "domain": "me",
       "flag": {
-        "file": "",
+        "file": "me.png",
         "colors": [],
         "features": []
       },
@@ -1280,7 +1280,7 @@
     {
       "domain": "nl",
       "flag": {
-        "file": "",
+        "file": "nl.png",
         "colors": [],
         "features": []
       },
@@ -1297,7 +1297,7 @@
     {
       "domain": "mk",
       "flag": {
-        "file": "",
+        "file": "mk.png",
         "colors": [],
         "features": []
       },
@@ -1314,7 +1314,7 @@
     {
       "domain": "no",
       "flag": {
-        "file": "",
+        "file": "no.png",
         "colors": [],
         "features": []
       },
@@ -1331,7 +1331,7 @@
     {
       "domain": "pl",
       "flag": {
-        "file": "",
+        "file": "pl.png",
         "colors": [],
         "features": []
       },
@@ -1348,7 +1348,7 @@
     {
       "domain": "pt",
       "flag": {
-        "file": "",
+        "file": "pt.png",
         "colors": [],
         "features": []
       },
@@ -1365,7 +1365,7 @@
     {
       "domain": "ro",
       "flag": {
-        "file": "",
+        "file": "ro.png",
         "colors": [],
         "features": []
       },
@@ -1382,7 +1382,7 @@
     {
       "domain": "sm",
       "flag": {
-        "file": "",
+        "file": "sm.png",
         "colors": [],
         "features": []
       },
@@ -1399,7 +1399,7 @@
     {
       "domain": "rs",
       "flag": {
-        "file": "",
+        "file": "rs.png",
         "colors": [],
         "features": []
       },
@@ -1416,7 +1416,7 @@
     {
       "domain": "sk",
       "flag": {
-        "file": "",
+        "file": "sk.png",
         "colors": [],
         "features": []
       },
@@ -1433,7 +1433,7 @@
     {
       "domain": "si",
       "flag": {
-        "file": "",
+        "file": "si.png",
         "colors": [],
         "features": []
       },
@@ -1450,7 +1450,7 @@
     {
       "domain": "es",
       "flag": {
-        "file": "",
+        "file": "es.png",
         "colors": [],
         "features": []
       },
@@ -1467,7 +1467,7 @@
     {
       "domain": "se",
       "flag": {
-        "file": "",
+        "file": "se.png",
         "colors": [],
         "features": []
       },
@@ -1484,7 +1484,7 @@
     {
       "domain": "ch",
       "flag": {
-        "file": "",
+        "file": "ch.png",
         "colors": [],
         "features": []
       },
@@ -1501,7 +1501,7 @@
     {
       "domain": "tr",
       "flag": {
-        "file": "",
+        "file": "tr.png",
         "colors": [],
         "features": []
       },
@@ -1518,7 +1518,7 @@
     {
       "domain": "ua",
       "flag": {
-        "file": "",
+        "file": "ua.png",
         "colors": [],
         "features": []
       },
@@ -1535,7 +1535,7 @@
     {
       "domain": "uk",
       "flag": {
-        "file": "",
+        "file": "gb.png",
         "colors": [],
         "features": []
       },
@@ -1552,7 +1552,7 @@
     {
       "domain": "ca",
       "flag": {
-        "file": "",
+        "file": "ca.png",
         "colors": [],
         "features": []
       },
@@ -1586,7 +1586,7 @@
     {
       "domain": "do",
       "flag": {
-        "file": "",
+        "file": "do.png",
         "colors": [],
         "features": []
       },
@@ -1603,7 +1603,7 @@
     {
       "domain": "gl",
       "flag": {
-        "file": "",
+        "file": "gl.png",
         "colors": [],
         "features": []
       },
@@ -1620,7 +1620,7 @@
     {
       "domain": "gt",
       "flag": {
-        "file": "",
+        "file": "gt.png",
         "colors": [],
         "features": []
       },
@@ -1637,7 +1637,7 @@
     {
       "domain": "mx",
       "flag": {
-        "file": "",
+        "file": "mx.png",
         "colors": [],
         "features": []
       },
@@ -1654,7 +1654,7 @@
     {
       "domain": "pr",
       "flag": {
-        "file": "",
+        "file": "pr.png",
         "colors": [],
         "features": []
       },
@@ -1671,7 +1671,7 @@
     {
       "domain": "us",
       "flag": {
-        "file": "",
+        "file": "us.png",
         "colors": [],
         "features": []
       },
@@ -1705,7 +1705,7 @@
     {
       "domain": "as",
       "flag": {
-        "file": "",
+        "file": "as.png",
         "colors": [],
         "features": []
       },
@@ -1722,7 +1722,7 @@
     {
       "domain": "au",
       "flag": {
-        "file": "",
+        "file": "au.png",
         "colors": [],
         "features": []
       },
@@ -1739,7 +1739,7 @@
     {
       "domain": "gu",
       "flag": {
-        "file": "",
+        "file": "gu.png",
         "colors": [],
         "features": []
       },
@@ -1756,7 +1756,7 @@
     {
       "domain": "nz",
       "flag": {
-        "file": "",
+        "file": "nz.png",
         "colors": [],
         "features": []
       },
@@ -1773,7 +1773,7 @@
     {
       "domain": "mp",
       "flag": {
-        "file": "",
+        "file": "mp.png",
         "colors": [],
         "features": []
       },
@@ -1790,7 +1790,7 @@
     {
       "domain": "ar",
       "flag": {
-        "file": "",
+        "file": "ar.png",
         "colors": [],
         "features": []
       },
@@ -1807,7 +1807,7 @@
     {
       "domain": "bo",
       "flag": {
-        "file": "",
+        "file": "bo.png",
         "colors": [],
         "features": []
       },
@@ -1824,7 +1824,7 @@
     {
       "domain": "br",
       "flag": {
-        "file": "",
+        "file": "br.png",
         "colors": [],
         "features": []
       },
@@ -1841,7 +1841,7 @@
     {
       "domain": "cl",
       "flag": {
-        "file": "",
+        "file": "cl.png",
         "colors": [],
         "features": []
       },
@@ -1858,7 +1858,7 @@
     {
       "domain": "co",
       "flag": {
-        "file": "",
+        "file": "co.png",
         "colors": [],
         "features": []
       },
@@ -1875,7 +1875,7 @@
     {
       "domain": "ec",
       "flag": {
-        "file": "",
+        "file": "ec.png",
         "colors": [],
         "features": []
       },
@@ -1892,7 +1892,7 @@
     {
       "domain": "pe",
       "flag": {
-        "file": "",
+        "file": "pe.png",
         "colors": [],
         "features": []
       },
@@ -1909,7 +1909,7 @@
     {
       "domain": "uy",
       "flag": {
-        "file": "",
+        "file": "uy.png",
         "colors": [],
         "features": []
       },
@@ -1932,23 +1932,6 @@
       },
       "icon": "",
       "name": "Cura\u00C3\u00A7ao",
-      "region": "",
-      "phone": {
-        "code": ""
-      },
-      "road": {
-        "side": ""
-      }
-    },
-    {
-      "domain": "eu",
-      "flag": {
-        "file": "",
-        "colors": [],
-        "features": []
-      },
-      "icon": "",
-      "name": "European Union",
       "region": "",
       "phone": {
         "code": ""
