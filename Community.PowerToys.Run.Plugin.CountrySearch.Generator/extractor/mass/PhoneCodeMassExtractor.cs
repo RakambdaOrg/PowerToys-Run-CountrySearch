@@ -4,9 +4,9 @@ using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 using PowerToys_Run_CountrySearch;
 
-namespace PowerToys_Run_CountrySearch_Generator.extractor;
+namespace PowerToys_Run_CountrySearch_Generator.extractor.mass;
 
-public partial class PhoneCodeExtractor : IExtractor
+public partial class PhoneCodeMassExtractor : IMassExtractor
 {
     private static readonly Regex PhoneCodeRegex = PhoneCodeRegexGenerator();
 
@@ -32,7 +32,7 @@ public partial class PhoneCodeExtractor : IExtractor
             .Select(line => line.Trim())
             .Select(line => PhoneCodeRegex.Match(line))
             .Where(match => match.Success)
-            .SelectMany(match => match.Groups["country"].Value.Split(","), (match, country) => (country.Trim().CleanCountry(), match.Groups["code"].Value));
+            .SelectMany(match => match.Groups["country"].Value.Split(","), (match, country) => (country.Trim().Cleanup(), match.Groups["code"].Value));
 
         foreach (var (country, code) in codes)
         {

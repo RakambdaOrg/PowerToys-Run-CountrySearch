@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using HtmlAgilityPack;
 using PowerToys_Run_CountrySearch;
 
-namespace PowerToys_Run_CountrySearch_Generator.extractor;
+namespace PowerToys_Run_CountrySearch_Generator.extractor.mass;
 
-public class FlagImageExtractor : IExtractor
+public class FlagImageMassExtractor : IMassExtractor
 {
     public string[] GetJsonPath()
     {
@@ -22,7 +22,7 @@ public class FlagImageExtractor : IExtractor
         var bollardClasses = doc.DocumentNode.SelectNodes("//*[contains(@class,'bollard')]");
         foreach (var bollardClass in bollardClasses)
         {
-            var country = bollardClass.SelectSingleNode("./*[contains(@class,'country')]").InnerText.CleanCountry();
+            var country = bollardClass.SelectSingleNode("./*[contains(@class,'country')]").InnerText.Cleanup();
             var flagPath = bollardClass.SelectSingleNode("./img").GetAttributeValue("src", null);
             if (string.IsNullOrEmpty(flagPath) || string.IsNullOrEmpty(country))
             {

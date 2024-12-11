@@ -4,9 +4,9 @@ using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 using PowerToys_Run_CountrySearch;
 
-namespace PowerToys_Run_CountrySearch_Generator.extractor;
+namespace PowerToys_Run_CountrySearch_Generator.extractor.mass;
 
-public partial class RegionExtractor : IExtractor
+public partial class RegionMassExtractor : IMassExtractor
 {
     private static readonly Regex CountryRegex = CountryRegexGenerator();
 
@@ -37,7 +37,7 @@ public partial class RegionExtractor : IExtractor
                 .Select(line => line.Trim())
                 .Select(line => CountryRegex.Match(line))
                 .Where(match => match.Success)
-                .Select(match => (match.Groups["country"].Value.CleanCountry(), areaName));
+                .Select(match => (match.Groups["country"].Value.Cleanup(), areaName));
 
             foreach (var (country, area) in areas)
             {

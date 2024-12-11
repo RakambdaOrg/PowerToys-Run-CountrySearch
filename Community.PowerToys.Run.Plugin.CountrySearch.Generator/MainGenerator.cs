@@ -1,11 +1,10 @@
-﻿#nullable enable
-using System;
-using System.Globalization;
+﻿using System;
 using System.IO;
-using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using PowerToys_Run_CountrySearch_Generator.extractor;
+using PowerToys_Run_CountrySearch_Generator.extractor.mass;
+using PowerToys_Run_CountrySearch_Generator.extractor.single;
 using PowerToys_Run_CountrySearch;
 using PowerToys_Run_CountrySearch.model;
 
@@ -13,13 +12,19 @@ namespace PowerToys_Run_CountrySearch_Generator;
 
 public static class MainGenerator
 {
-    private static readonly IExtractor[] Extractors =
+    private static readonly IMassExtractor[] MassExtractors =
     [
-        new FlagImageExtractor(),
-        new DomainExtractor(),
-        new DrivingSideExtractor(),
-        new PhoneCodeExtractor(),
-        new RegionExtractor(),
+        new FlagImageMassExtractor(),
+        new DomainMassExtractor(),
+        new DrivingSideMassExtractor(),
+        new PhoneCodeMassExtractor(),
+        new RegionMassExtractor()
+    ];
+
+    private static readonly ISingleExtractor[] SingleExtractors =
+    [
+        new LanguageSingleExtractor(),
+        new IconSingleExtractor()
     ];
 
     public static void Main()
@@ -27,7 +32,7 @@ public static class MainGenerator
         var countriesJsonPath = Path.Join("..", "..", "..", "..", "Community.PowerToys.Run.Plugin.CountrySearch", "Resources", "countries.json");
         var countries = CountriesReader.ReadFile(countriesJsonPath);
 
-        foreach (var extractor in Extractors)
+        foreach (var extractor in MassExtractors)
         {
             var extracted = extractor.Extract();
             foreach (var (countryName, value) in extracted)
@@ -35,15 +40,26 @@ public static class MainGenerator
                 var country = countries.countries.Find(c => (c.name ?? "").Equals(countryName, StringComparison.InvariantCultureIgnoreCase));
                 if (country == null)
                 {
+                    if (!extractor.CreateNewCountry())
+                    {
+                        continue;
+                    }
+
                     country = new Country();
-                    country.name = countryName;
                     countries.countries.Add(country);
+                    country.name = countryName;
                 }
 
                 InitEmptyObjects(country);
+                SetValue(country, value, extractor.GetJsonPath(), extractor.OverrideIfSet());
+            }
+        }
 
-                SetValue(country, GetCountryCodeFromCountryName(countryName)?.Transform(c => $"{c}.png"), ["flag", "file"], false);
-                SetValue(country, GetLanguageNameFromCountryName(countryName), ["language", "main"], false);
+        foreach (var extractor in SingleExtractors)
+        {
+            foreach (var country in countries.countries)
+            {
+                var value = extractor.Extract(country);
                 SetValue(country, value, extractor.GetJsonPath(), extractor.OverrideIfSet());
             }
         }
@@ -55,29 +71,6 @@ public static class MainGenerator
         };
         var jsonContent = JsonSerializer.Serialize(countries, jsonWriteOptions);
         File.WriteAllText(countriesJsonPath, jsonContent);
-    }
-
-    private static string? GetCountryCodeFromCountryName(string name)
-    {
-        return CultureInfo
-            .GetCultures(CultureTypes.SpecificCultures)
-            .Select(c => new RegionInfo(c.Name))
-            .FirstOrDefault(r => r.EnglishName == name)
-            ?.TwoLetterISORegionName.ToLowerInvariant();
-    }
-
-    private static string? GetLanguageNameFromCountryName(string name)
-    {
-        var culture = CultureInfo
-            .GetCultures(CultureTypes.SpecificCultures)
-            .FirstOrDefault(c => new RegionInfo(c.Name).EnglishName == name);
-
-        if (culture == null)
-        {
-            return null;
-        }
-
-        return culture.IsNeutralCulture ? culture.EnglishName : culture.Parent.EnglishName;
     }
 
     private static void SetValue(object? obj, string? value, string[] jsonPath, bool overrideIfSet)

@@ -9,6 +9,7 @@
         <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
         <OutputType>Exe</OutputType>
         <StartupObject>PowerToys_Run_CountrySearch_Generator.MainGenerator</StartupObject>
+        <Nullable>enable</Nullable>
     </PropertyGroup>
     
     <ItemGroup>

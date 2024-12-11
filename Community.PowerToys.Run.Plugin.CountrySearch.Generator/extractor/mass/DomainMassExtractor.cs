@@ -4,9 +4,9 @@ using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 using PowerToys_Run_CountrySearch;
 
-namespace PowerToys_Run_CountrySearch_Generator.extractor;
+namespace PowerToys_Run_CountrySearch_Generator.extractor.mass;
 
-public partial class DomainExtractor : IExtractor
+public partial class DomainMassExtractor : IMassExtractor
 {
     private static readonly Regex DomainRegex = DomainRegexGenerator();
 
@@ -32,7 +32,7 @@ public partial class DomainExtractor : IExtractor
             .Select(line => line.Trim())
             .Select(line => DomainRegex.Match(line))
             .Where(match => match.Success)
-            .Select(match => (match.Groups["country"].Value.CleanCountry(), Domain: match.Groups["domain"].Value))
+            .Select(match => (match.Groups["country"].Value.Cleanup(), Domain: match.Groups["domain"].Value))
             .Where(obj => obj.Domain != "eu");
 
         foreach (var (country, domain) in domains)
