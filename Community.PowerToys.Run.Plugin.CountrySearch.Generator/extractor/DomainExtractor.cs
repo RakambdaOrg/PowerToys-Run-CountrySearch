@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
+using PowerToys_Run_CountrySearch;
 
 namespace PowerToys_Run_CountrySearch_Generator.extractor;
 
@@ -31,7 +32,8 @@ public partial class DomainExtractor : IExtractor
             .Select(line => line.Trim())
             .Select(line => DomainRegex.Match(line))
             .Where(match => match.Success)
-            .Select(match => (match.Groups["country"].Value, match.Groups["domain"].Value));
+            .Select(match => (match.Groups["country"].Value.CleanCountry(), Domain: match.Groups["domain"].Value))
+            .Where(obj => obj.Domain != "eu");
 
         foreach (var (country, domain) in domains)
         {

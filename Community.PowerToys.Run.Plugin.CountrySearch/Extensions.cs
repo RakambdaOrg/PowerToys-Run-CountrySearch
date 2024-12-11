@@ -6,4 +6,12 @@ public static class Extensions
     {
         return string.IsNullOrWhiteSpace(source) ? fallback : transform(source);
     }
+
+    public static string CleanCountry(this string source)
+    {
+        return source
+            .Replace("Ã§", "ç")
+            .Replace("&ccedil;", "ç")
+            ;
+    }
 }

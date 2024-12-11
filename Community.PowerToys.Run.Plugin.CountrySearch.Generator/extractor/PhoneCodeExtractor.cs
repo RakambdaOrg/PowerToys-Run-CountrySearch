@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
+using PowerToys_Run_CountrySearch;
 
 namespace PowerToys_Run_CountrySearch_Generator.extractor;
 
@@ -31,7 +32,7 @@ public partial class PhoneCodeExtractor : IExtractor
             .Select(line => line.Trim())
             .Select(line => PhoneCodeRegex.Match(line))
             .Where(match => match.Success)
-            .SelectMany(match => match.Groups["country"].Value.Split(","), (match, country) => (country.Trim(), match.Groups["code"].Value));
+            .SelectMany(match => match.Groups["country"].Value.Split(","), (match, country) => (country.Trim().CleanCountry(), match.Groups["code"].Value));
 
         foreach (var (country, code) in codes)
         {

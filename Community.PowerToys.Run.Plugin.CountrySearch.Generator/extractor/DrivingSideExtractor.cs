@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
+using PowerToys_Run_CountrySearch;
 
 namespace PowerToys_Run_CountrySearch_Generator.extractor;
 
@@ -31,7 +32,7 @@ public partial class DrivingSideExtractor : IExtractor
             .Select(line => line.Trim())
             .Select(line => SideRegex.Match(line))
             .Where(match => match.Success)
-            .Select(match => (match.Groups["country"].Value, match.Groups["side"].Value));
+            .Select(match => (match.Groups["country"].Value.CleanCountry(), match.Groups["side"].Value));
 
         foreach (var (country, side) in sides)
         {

@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
+using PowerToys_Run_CountrySearch;
 
 namespace PowerToys_Run_CountrySearch_Generator.extractor;
 
@@ -37,7 +37,7 @@ public partial class RegionExtractor : IExtractor
                 .Select(line => line.Trim())
                 .Select(line => CountryRegex.Match(line))
                 .Where(match => match.Success)
-                .Select(match => (match.Groups["country"].Value, areaName));
+                .Select(match => (match.Groups["country"].Value.CleanCountry(), areaName));
 
             foreach (var (country, area) in areas)
             {
