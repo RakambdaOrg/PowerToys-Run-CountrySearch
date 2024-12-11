@@ -110,7 +110,7 @@ public class Main : IPlugin, IDisposable
         GC.SuppressFinalize(this);
     }
 
-    protected virtual void Dispose(bool disposing)
+    private void Dispose(bool disposing)
     {
         if (Disposed || !disposing)
         {
