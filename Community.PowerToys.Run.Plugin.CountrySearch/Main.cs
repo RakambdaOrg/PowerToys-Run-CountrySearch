@@ -44,7 +44,7 @@ public class Main : IPlugin, IDisposable
                 {
                     QueryTextDisplay = query.Search,
                     IcoPath = Path.Join(PluginPath, "Images", "Flags", country.flag.file),
-                    Title = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(country.name),
+                    Title = country.name,
                     SubTitle = country.Describe(),
                     Score = 1,
                     Action = _ => true

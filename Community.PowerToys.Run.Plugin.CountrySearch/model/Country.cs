@@ -12,14 +12,9 @@ public class Country
 
     public string Describe()
     {
-        var formattedRegion = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(region);
-        var formattedRoadSide = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(road.side);
-
         return $"""
-                Region: {formattedRegion}
-                Road side: {formattedRoadSide}
-                Domain: {domain}
-                Phone code: {phone.code}
+                Region: {region} | Domain: {domain}
+                Road side: {road.side} | Phone code: +{phone.code}
                 """;
     }
 }
