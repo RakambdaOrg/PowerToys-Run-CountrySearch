@@ -4,6 +4,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using PowerToys_Run_CountrySearch_Generator.extractor;
 using PowerToys_Run_CountrySearch;
 using PowerToys_Run_CountrySearch.model;
@@ -15,7 +16,7 @@ public static class MainGenerator
     private static readonly IExtractor[] Extractors =
     [
         new FlagImageExtractor(),
-        new DomainImageExtractor(),
+        new DomainExtractor(),
         new DrivingSideExtractor(),
         new PhoneCodeExtractor(),
         new RegionExtractor(),
@@ -31,23 +32,31 @@ public static class MainGenerator
             var extracted = extractor.Extract();
             foreach (var (countryName, value) in extracted)
             {
-                var country = countries.countries.Find(c => c.name.Equals(countryName, StringComparison.InvariantCultureIgnoreCase));
+                var country = countries.countries.Find(c => (c.name ?? "").Equals(countryName, StringComparison.InvariantCultureIgnoreCase));
                 if (country == null)
                 {
-                    country = CreateNewCountry(countryName);
+                    country = new Country();
                     countries.countries.Add(country);
                 }
-                
+
+                InitEmptyObjects(country);
+
+                SetValue(country, GetCountryCodeFromCountryName(countryName)?.Transform(c => $"{c}.png"), ["flag", "file"], false);
+                SetValue(country, GetLanguageNameFromCountryName(countryName), ["language", "main"], false);
                 SetValue(country, value, extractor.GetJsonPath(), extractor.OverrideIfSet());
             }
         }
 
-        var jsonWriteOptions = new JsonSerializerOptions { WriteIndented = true };
+        var jsonWriteOptions = new JsonSerializerOptions
+        {
+            WriteIndented = true,
+            DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull
+        };
         var jsonContent = JsonSerializer.Serialize(countries, jsonWriteOptions);
         File.WriteAllText(countriesJsonPath, jsonContent);
     }
 
-    private static string? GetCountryCodeFromName(string name)
+    private static string? GetCountryCodeFromCountryName(string name)
     {
         return CultureInfo
             .GetCultures(CultureTypes.SpecificCultures)
@@ -56,8 +65,27 @@ public static class MainGenerator
             ?.TwoLetterISORegionName.ToLowerInvariant();
     }
 
-    private static void SetValue(object? obj, string value, string[] jsonPath, bool overrideIfSet)
+    private static string? GetLanguageNameFromCountryName(string name)
     {
+        var culture = CultureInfo
+            .GetCultures(CultureTypes.SpecificCultures)
+            .FirstOrDefault(c => new RegionInfo(c.Name).EnglishName == name);
+
+        if (culture == null)
+        {
+            return null;
+        }
+
+        return culture.IsNeutralCulture ? culture.EnglishName : culture.Parent.EnglishName;
+    }
+
+    private static void SetValue(object? obj, string? value, string[] jsonPath, bool overrideIfSet)
+    {
+        if (string.IsNullOrEmpty(value))
+        {
+            return;
+        }
+
         if (obj == null)
         {
             throw new Exception("Invalid JSON path, property with null value");
@@ -92,36 +120,13 @@ public static class MainGenerator
         SetValue(property.GetValue(obj), value, jsonPath[1..], overrideIfSet);
     }
 
-    private static Country CreateNewCountry(string name)
+    private static void InitEmptyObjects(Country country)
     {
-        var country = new Country
-        {
-            domain = "",
-            flag = new Flag
-            {
-                colors = [],
-                features = [],
-                file = ""
-            },
-            icon = "",
-            name = name,
-            phone = new Phone
-            {
-                code = ""
-            },
-            region = "",
-            road = new Road
-            {
-                side = ""
-            }
-        };
-
-        var isoCode = GetCountryCodeFromName(name);
-        if (isoCode != null)
-        {
-            country.flag.file = $"{isoCode}.png";
-        }
-
-        return country;
+        country.flag ??= new Flag();
+        country.flag.colors ??= [];
+        country.flag.features ??= [];
+        country.phone ??= new Phone();
+        country.road ??= new Road();
+        country.language ??= new Language();
     }
 }

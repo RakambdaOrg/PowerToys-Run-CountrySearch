@@ -21,6 +21,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -48,6 +51,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -73,6 +79,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Akan"
       }
     },
     {
@@ -98,6 +107,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "Taita"
       }
     },
     {
@@ -121,6 +133,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -144,6 +159,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -166,6 +184,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -190,6 +211,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -214,6 +238,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Jola-Fonyi"
       }
     },
     {
@@ -240,6 +267,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "Afrikaans"
       }
     },
     {
@@ -264,6 +294,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Arabic"
       }
     },
     {
@@ -289,6 +322,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "Chiga"
       }
     },
     {
@@ -311,6 +347,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "Bangla"
       }
     },
     {
@@ -335,6 +374,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "Dzongkha"
       }
     },
     {
@@ -359,6 +401,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Khmer"
       }
     },
     {
@@ -385,6 +430,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -410,6 +458,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "Assamese"
       }
     },
     {
@@ -432,6 +483,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "Indonesian"
       }
     },
     {
@@ -455,6 +509,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Arabic"
       }
     },
     {
@@ -477,6 +534,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "Japanese"
       }
     },
     {
@@ -503,6 +563,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Arabic"
       }
     },
     {
@@ -525,6 +588,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Kyrgyz"
       }
     },
     {
@@ -549,6 +615,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Lao"
       }
     },
     {
@@ -575,6 +644,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -599,6 +671,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Mongolian"
       }
     },
     {
@@ -624,6 +699,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Cebuano"
       }
     },
     {
@@ -647,6 +725,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Bashkir"
       }
     },
     {
@@ -671,6 +752,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -696,7 +780,8 @@
       },
       "road": {
         "side": "Right"
-      }
+      },
+      "language": {}
     },
     {
       "domain": "lk",
@@ -722,6 +807,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "Sinhala"
       }
     },
     {
@@ -746,6 +834,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Chinese (Traditional)"
       }
     },
     {
@@ -769,6 +860,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "Thai"
       }
     },
     {
@@ -794,6 +888,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Arabic"
       }
     },
     {
@@ -816,6 +913,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Vietnamese"
       }
     },
     {
@@ -833,6 +933,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Albanian"
       }
     },
     {
@@ -850,6 +953,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Catalan"
       }
     },
     {
@@ -867,6 +973,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "German"
       }
     },
     {
@@ -884,6 +993,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "German"
       }
     },
     {
@@ -901,6 +1013,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Bulgarian"
       }
     },
     {
@@ -918,6 +1033,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Croatian"
       }
     },
     {
@@ -935,7 +1053,8 @@
       },
       "road": {
         "side": "Right"
-      }
+      },
+      "language": {}
     },
     {
       "domain": "dk",
@@ -952,6 +1071,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Danish"
       }
     },
     {
@@ -969,6 +1091,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Estonian"
       }
     },
     {
@@ -986,6 +1111,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Faroese"
       }
     },
     {
@@ -1003,6 +1131,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -1020,6 +1151,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Breton"
       }
     },
     {
@@ -1037,6 +1171,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "German"
       }
     },
     {
@@ -1054,6 +1191,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -1071,6 +1211,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Greek"
       }
     },
     {
@@ -1088,6 +1231,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Hungarian"
       }
     },
     {
@@ -1105,6 +1251,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Icelandic"
       }
     },
     {
@@ -1122,6 +1271,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -1139,6 +1291,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -1156,6 +1311,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Catalan"
       }
     },
     {
@@ -1173,6 +1331,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -1190,6 +1351,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Latvian"
       }
     },
     {
@@ -1207,6 +1371,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Lithuanian"
       }
     },
     {
@@ -1224,6 +1391,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "German"
       }
     },
     {
@@ -1241,6 +1411,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -1258,6 +1431,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "French"
       }
     },
     {
@@ -1275,6 +1451,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Serbian (Cyrillic)"
       }
     },
     {
@@ -1292,6 +1471,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -1309,6 +1491,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Macedonian"
       }
     },
     {
@@ -1326,6 +1511,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Norwegian Bokm\u00E5l"
       }
     },
     {
@@ -1343,6 +1531,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Polish"
       }
     },
     {
@@ -1360,6 +1551,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Portuguese"
       }
     },
     {
@@ -1377,6 +1571,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Romanian"
       }
     },
     {
@@ -1394,6 +1591,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Italian"
       }
     },
     {
@@ -1411,6 +1611,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Serbian (Cyrillic)"
       }
     },
     {
@@ -1428,6 +1631,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Slovak"
       }
     },
     {
@@ -1445,6 +1651,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -1462,6 +1671,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Asturian"
       }
     },
     {
@@ -1479,6 +1691,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -1496,6 +1711,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "German"
       }
     },
     {
@@ -1513,6 +1731,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Turkish"
       }
     },
     {
@@ -1530,6 +1751,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Russian"
       }
     },
     {
@@ -1547,6 +1771,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "Welsh"
       }
     },
     {
@@ -1564,6 +1791,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -1581,7 +1811,8 @@
       },
       "road": {
         "side": "Right"
-      }
+      },
+      "language": {}
     },
     {
       "domain": "do",
@@ -1598,6 +1829,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Spanish"
       }
     },
     {
@@ -1615,6 +1849,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Danish"
       }
     },
     {
@@ -1632,6 +1869,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Spanish"
       }
     },
     {
@@ -1649,6 +1889,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Spanish"
       }
     },
     {
@@ -1666,6 +1909,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -1683,6 +1929,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Cherokee"
       }
     },
     {
@@ -1700,7 +1949,8 @@
       },
       "road": {
         "side": "Left"
-      }
+      },
+      "language": {}
     },
     {
       "domain": "as",
@@ -1717,6 +1967,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -1734,6 +1987,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -1751,6 +2007,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -1768,6 +2027,9 @@
       },
       "road": {
         "side": "Left"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -1785,6 +2047,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "English"
       }
     },
     {
@@ -1802,6 +2067,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Spanish"
       }
     },
     {
@@ -1819,6 +2087,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Spanish"
       }
     },
     {
@@ -1836,6 +2107,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Spanish"
       }
     },
     {
@@ -1853,6 +2127,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Mapuche"
       }
     },
     {
@@ -1870,6 +2147,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Spanish"
       }
     },
     {
@@ -1887,6 +2167,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Spanish"
       }
     },
     {
@@ -1904,6 +2187,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Spanish"
       }
     },
     {
@@ -1921,6 +2207,9 @@
       },
       "road": {
         "side": "Right"
+      },
+      "language": {
+        "main": "Spanish"
       }
     },
     {
@@ -1938,7 +2227,25 @@
       },
       "road": {
         "side": ""
-      }
+      },
+      "language": {}
+    },
+    {
+      "domain": "eu",
+      "flag": {},
+      "phone": {},
+      "road": {},
+      "language": {}
+    },
+    {
+      "domain": "eu",
+      "flag": {
+        "colors": [],
+        "features": []
+      },
+      "phone": {},
+      "road": {},
+      "language": {}
     }
   ]
 }

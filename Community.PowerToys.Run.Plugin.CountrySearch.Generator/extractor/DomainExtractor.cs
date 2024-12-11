@@ -5,7 +5,7 @@ using HtmlAgilityPack;
 
 namespace PowerToys_Run_CountrySearch_Generator.extractor;
 
-public partial class DomainImageExtractor : IExtractor
+public partial class DomainExtractor : IExtractor
 {
     private static readonly Regex DomainRegex = DomainRegexGenerator();
 

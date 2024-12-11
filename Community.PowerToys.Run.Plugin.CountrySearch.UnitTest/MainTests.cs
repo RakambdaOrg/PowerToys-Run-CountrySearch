@@ -30,6 +30,6 @@ public class MainTests
     {
         var results = _subject.Query(new Query("d1"));
         Assert.AreEqual(1, results.Count);
-        Assert.AreEqual("Id1", results[0].Title);
+        Assert.AreEqual("id1", results[0].Title);
     }
 }

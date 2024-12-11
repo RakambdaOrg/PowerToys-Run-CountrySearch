@@ -2,5 +2,5 @@
 
 public class Road
 {
-    public string side { get; set; }
+    public string? side { get; set; }
 }

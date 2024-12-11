@@ -43,7 +43,7 @@ public class Main : IPlugin, IDisposable
             .Select(country => new Result
                 {
                     QueryTextDisplay = query.Search,
-                    IcoPath = Path.Join(PluginPath, "Images", "Flags", country.flag.file),
+                    IcoPath = country.flag?.file?.Transform(p => Path.Join(PluginPath, "Images", "Flags", p)),
                     Title = country.name,
                     SubTitle = country.Describe(),
                     Score = 1,
@@ -74,20 +74,26 @@ public class Main : IPlugin, IDisposable
         Countries = CountriesReader.ReadFile(countriesJsonPath);
 
         Database = new Dictionary<string, IEnumerable<Country>>();
-        foreach (var country in Countries.countries.Where(country => !country.name.Equals("")))
+        foreach (var country in Countries.countries.Where(country => !string.IsNullOrEmpty(country.name)))
         {
             AppendToKey(Database, country.name, country);
             AppendToKey(Database, country.region, country);
             AppendToKey(Database, country.domain, country);
-            AppendToKey(Database, country.phone.code, country);
-            AppendToKey(Database, country.road.side, country);
-            country.flag.colors.ForEach(val => AppendToKey(Database, val, country));
-            country.flag.features.ForEach(val => AppendToKey(Database, val, country));
+            AppendToKey(Database, country.phone?.code, country);
+            AppendToKey(Database, country.road?.side, country);
+            AppendToKey(Database, country.language?.main, country);
+            country.flag?.colors?.ForEach(val => AppendToKey(Database, val, country));
+            country.flag?.features?.ForEach(val => AppendToKey(Database, val, country));
         }
     }
 
-    private static void AppendToKey(Dictionary<string, IEnumerable<Country>> dictionary, string key, Country value)
+    private static void AppendToKey(Dictionary<string, IEnumerable<Country>> dictionary, string? key, Country value)
     {
+        if (string.IsNullOrEmpty(key))
+        {
+            return;
+        }
+
         if (!dictionary.TryGetValue(key, out var values))
         {
             values = new List<Country>();
