@@ -4,7 +4,7 @@
   "IsGlobal": false,
   "Name": "CountrySearch",
   "Author": "Rakambda,muller-j",
-  "Version": "1.0.0",
+  "Version": "0.0.0",
   "Language": "csharp",
   "Website": "https://github.com/RakambdaOrg/PowerToys-Run-CountrySearch",
   "ExecuteFileName": "Community.PowerToys.Run.Plugin.CountrySearch.dll",

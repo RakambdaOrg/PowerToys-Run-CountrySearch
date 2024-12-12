@@ -1,7 +1,13 @@
 {
   "countries": [
     {
-      "domain": "bw",
+      "cca2": "BW",
+      "tlds": [
+        "bw"
+      ],
+      "continents": [
+        "Africa"
+      ],
       "flag": {
         "file": "bw.png",
         "colors": [
@@ -13,24 +19,33 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_botswana.svg",
       "name": "Botswana",
       "region": "Africa",
       "phone": {
         "code": "267"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "Tswana"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "tsn",
+          "name": "Tswana"
+        }
+      ]
     },
     {
-      "domain": "sz",
+      "cca2": "SZ",
+      "tlds": [
+        "sz"
+      ],
+      "continents": [
+        "Africa"
+      ],
       "flag": {
         "file": "sz.png",
         "colors": [
@@ -46,24 +61,33 @@
           "leaf"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_eswatini.svg",
       "name": "Eswatini",
       "region": "Africa",
       "phone": {
         "code": "268"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "Swazi"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "ssw",
+          "name": "Swazi"
+        }
+      ]
     },
     {
-      "domain": "gh",
+      "cca2": "GH",
+      "tlds": [
+        "gh"
+      ],
+      "continents": [
+        "Africa"
+      ],
       "flag": {
         "file": "gh.png",
         "colors": [
@@ -77,22 +101,29 @@
           "star"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_ghana.svg",
       "name": "Ghana",
       "region": "Africa",
       "phone": {
         "code": "233"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "English",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        }
+      ]
     },
     {
-      "domain": "ke",
+      "cca2": "KE",
+      "tlds": [
+        "ke"
+      ],
+      "continents": [
+        "Africa"
+      ],
       "flag": {
         "file": "ke.png",
         "colors": [
@@ -106,24 +137,33 @@
           "shield"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_kenya.svg",
       "name": "Kenya",
       "region": "Africa",
       "phone": {
         "code": "254"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "Swahili"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "swa",
+          "name": "Swahili"
+        }
+      ]
     },
     {
-      "domain": "ls",
+      "cca2": "LS",
+      "tlds": [
+        "ls"
+      ],
+      "continents": [
+        "Africa"
+      ],
       "flag": {
         "file": "ls.png",
         "colors": [
@@ -135,24 +175,33 @@
           "hat"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_lesotho.svg",
       "name": "Lesotho",
       "region": "Africa",
       "phone": {
         "code": "266"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "Sotho"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "sot",
+          "name": "Sotho"
+        }
+      ]
     },
     {
-      "domain": "mg",
+      "cca2": "MG",
+      "tlds": [
+        "mg"
+      ],
+      "continents": [
+        "Africa"
+      ],
       "flag": {
         "file": "mg.png",
         "colors": [
@@ -164,24 +213,33 @@
           "grid"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_madagascar.svg",
       "name": "Madagascar",
       "region": "Africa",
       "phone": {
         "code": "261"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "French",
-        "other": [
-          "Malagasy"
-        ]
-      }
+      "languages": [
+        {
+          "code": "fra",
+          "name": "French"
+        },
+        {
+          "code": "mlg",
+          "name": "Malagasy"
+        }
+      ]
     },
     {
-      "domain": "ng",
+      "cca2": "NG",
+      "tlds": [
+        "ng"
+      ],
+      "continents": [
+        "Africa"
+      ],
       "flag": {
         "file": "ng.png",
         "colors": [
@@ -192,22 +250,29 @@
           "vertical"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_nigeria.svg",
       "name": "Nigeria",
       "region": "Africa",
       "phone": {
         "code": "234"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "English",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        }
+      ]
     },
     {
-      "domain": "rw",
+      "cca2": "RW",
+      "tlds": [
+        "rw"
+      ],
+      "continents": [
+        "Africa"
+      ],
       "flag": {
         "file": "rw.png",
         "colors": [
@@ -220,25 +285,37 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_rwanda.svg",
       "name": "Rwanda",
       "region": "Africa",
       "phone": {
         "code": "250"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "French",
-          "Kinyarwanda"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "fra",
+          "name": "French"
+        },
+        {
+          "code": "kin",
+          "name": "Kinyarwanda"
+        }
+      ]
     },
     {
-      "domain": "sn",
+      "cca2": "SN",
+      "tlds": [
+        "sn"
+      ],
+      "continents": [
+        "Africa"
+      ],
       "flag": {
         "file": "sn.png",
         "colors": [
@@ -251,22 +328,29 @@
           "vertical"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_senegal.svg",
       "name": "Senegal",
       "region": "Africa",
       "phone": {
         "code": "221"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "French",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "fra",
+          "name": "French"
+        }
+      ]
     },
     {
-      "domain": "za",
+      "cca2": "ZA",
+      "tlds": [
+        "za"
+      ],
+      "continents": [
+        "Africa"
+      ],
       "flag": {
         "file": "za.png",
         "colors": [
@@ -281,33 +365,69 @@
           "ymca"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_south_africa.svg",
       "name": "South Africa",
       "region": "Africa",
       "phone": {
         "code": "27"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "Afrikaans",
-        "other": [
-          "English",
-          "Southern Ndebele",
-          "Northern Sotho",
-          "Southern Sotho",
-          "Swazi",
-          "Tswana",
-          "Tsonga",
-          "Venda",
-          "Xhosa",
-          "Zulu"
-        ]
-      }
+      "languages": [
+        {
+          "code": "afr",
+          "name": "Afrikaans"
+        },
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "nbl",
+          "name": "Southern Ndebele"
+        },
+        {
+          "code": "nso",
+          "name": "Northern Sotho"
+        },
+        {
+          "code": "sot",
+          "name": "Southern Sotho"
+        },
+        {
+          "code": "ssw",
+          "name": "Swazi"
+        },
+        {
+          "code": "tsn",
+          "name": "Tswana"
+        },
+        {
+          "code": "tso",
+          "name": "Tsonga"
+        },
+        {
+          "code": "ven",
+          "name": "Venda"
+        },
+        {
+          "code": "xho",
+          "name": "Xhosa"
+        },
+        {
+          "code": "zul",
+          "name": "Zulu"
+        }
+      ]
     },
     {
-      "domain": "tn",
+      "cca2": "TN",
+      "tlds": [
+        "tn"
+      ],
+      "continents": [
+        "Africa"
+      ],
       "flag": {
         "file": "tn.png",
         "colors": [
@@ -320,22 +440,29 @@
           "moon"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_tunisia.svg",
       "name": "Tunisia",
       "region": "Africa",
       "phone": {
         "code": "216"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Arabic",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "ara",
+          "name": "Arabic"
+        }
+      ]
     },
     {
-      "domain": "ug",
+      "cca2": "UG",
+      "tlds": [
+        "ug"
+      ],
+      "continents": [
+        "Africa"
+      ],
       "flag": {
         "file": "ug.png",
         "colors": [
@@ -349,24 +476,33 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_uganda.svg",
       "name": "Uganda",
       "region": "Africa",
       "phone": {
         "code": "256"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "Swahili"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "swa",
+          "name": "Swahili"
+        }
+      ]
     },
     {
-      "domain": "bd",
+      "cca2": "BD",
+      "tlds": [
+        "bd"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "bd.png",
         "colors": [
@@ -377,22 +513,29 @@
           "circle"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_bangladesh.svg",
       "name": "Bangladesh",
       "region": "Asia",
       "phone": {
         "code": "880"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "Bengali",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "ben",
+          "name": "Bengali"
+        }
+      ]
     },
     {
-      "domain": "bt",
+      "cca2": "BT",
+      "tlds": [
+        "bt"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "bt.png",
         "colors": [
@@ -405,22 +548,29 @@
           "diagonal"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_bhutan.svg",
       "name": "Bhutan",
       "region": "Asia",
       "phone": {
         "code": "975"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "Dzongkha",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "dzo",
+          "name": "Dzongkha"
+        }
+      ]
     },
     {
-      "domain": "kh",
+      "cca2": "KH",
+      "tlds": [
+        "kh"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "kh.png",
         "colors": [
@@ -433,22 +583,29 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_cambodia.svg",
       "name": "Cambodia",
       "region": "Asia",
       "phone": {
         "code": "855"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Khmer",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "khm",
+          "name": "Khmer"
+        }
+      ]
     },
     {
-      "domain": "cx",
+      "cca2": "CX",
+      "tlds": [
+        "cx"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "cx.png",
         "colors": [
@@ -463,22 +620,29 @@
           "diagonal"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_christmas_island.svg",
       "name": "Christmas Island",
-      "region": "Asia",
+      "region": "Oceania",
       "phone": {
         "code": "61"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "English",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        }
+      ]
     },
     {
-      "domain": "in",
+      "cca2": "IN",
+      "tlds": [
+        "in"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "in.png",
         "colors": [
@@ -492,25 +656,37 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_india.svg",
       "name": "India",
       "region": "Asia",
       "phone": {
         "code": "91"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "Hindi",
-          "Tamil"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "hin",
+          "name": "Hindi"
+        },
+        {
+          "code": "tam",
+          "name": "Tamil"
+        }
+      ]
     },
     {
-      "domain": "id",
+      "cca2": "ID",
+      "tlds": [
+        "id"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "id.png",
         "colors": [
@@ -521,22 +697,29 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_indonesia.svg",
       "name": "Indonesia",
       "region": "Asia",
       "phone": {
         "code": "62"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "Indonesian",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "ind",
+          "name": "Indonesian"
+        }
+      ]
     },
     {
-      "domain": "il",
+      "cca2": "IL",
+      "tlds": [
+        "il"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "il.png",
         "colors": [
@@ -548,24 +731,34 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_israel.svg",
       "name": "Israel",
       "region": "Asia",
       "phone": {
         "code": "972"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Arabic",
-        "other": [
-          "Hebrew"
-        ]
-      }
+      "languages": [
+        {
+          "code": "ara",
+          "name": "Arabic"
+        },
+        {
+          "code": "heb",
+          "name": "Hebrew"
+        }
+      ]
     },
     {
-      "domain": "jp",
+      "cca2": "JP",
+      "tlds": [
+        "jp",
+        "\u307F\u3093\u306A"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "jp.png",
         "colors": [
@@ -576,22 +769,30 @@
           "circle"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_japan.svg",
       "name": "Japan",
       "region": "Asia",
       "phone": {
         "code": "81"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "Japanese",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "jpn",
+          "name": "Japanese"
+        }
+      ]
     },
     {
-      "domain": "jo",
+      "cca2": "JO",
+      "tlds": [
+        "jo",
+        "\u0644\u0627\u0631\u062F\u0646."
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "jo.png",
         "colors": [
@@ -606,22 +807,29 @@
           "triangle"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_jordan.svg",
       "name": "Jordan",
       "region": "Asia",
       "phone": {
         "code": "962"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Arabic",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "ara",
+          "name": "Arabic"
+        }
+      ]
     },
     {
-      "domain": "kg",
+      "cca2": "KG",
+      "tlds": [
+        "kg"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "kg.png",
         "colors": [
@@ -632,24 +840,33 @@
           "sun"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_kyrgyzstan.svg",
       "name": "Kyrgyzstan",
       "region": "Asia",
       "phone": {
         "code": "996"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Kyrgyz",
-        "other": [
-          "Russian"
-        ]
-      }
+      "languages": [
+        {
+          "code": "kir",
+          "name": "Kyrgyz"
+        },
+        {
+          "code": "rus",
+          "name": "Russian"
+        }
+      ]
     },
     {
-      "domain": "la",
+      "cca2": "LA",
+      "tlds": [
+        "la"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "la.png",
         "colors": [
@@ -662,22 +879,29 @@
           "circle"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_laos.svg",
       "name": "Laos",
       "region": "Asia",
       "phone": {
         "code": "856"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Lao",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "lao",
+          "name": "Lao"
+        }
+      ]
     },
     {
-      "domain": "my",
+      "cca2": "MY",
+      "tlds": [
+        "my"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "my.png",
         "colors": [
@@ -692,24 +916,33 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_malaysia.svg",
       "name": "Malaysia",
       "region": "Asia",
       "phone": {
         "code": "60"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "Malay"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "msa",
+          "name": "Malay"
+        }
+      ]
     },
     {
-      "domain": "mn",
+      "cca2": "MN",
+      "tlds": [
+        "mn"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "mn.png",
         "colors": [
@@ -722,22 +955,29 @@
           "vertical"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_mongolia.svg",
       "name": "Mongolia",
       "region": "Asia",
       "phone": {
         "code": "976"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Mongolian",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "mon",
+          "name": "Mongolian"
+        }
+      ]
     },
     {
-      "domain": "ph",
+      "cca2": "PH",
+      "tlds": [
+        "ph"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "ph.png",
         "colors": [
@@ -751,24 +991,36 @@
           "star"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_philippines.svg",
       "name": "Philippines",
       "region": "Asia",
       "phone": {
         "code": "63"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "Filipino"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "fil",
+          "name": "Filipino"
+        }
+      ]
     },
     {
-      "domain": "ru",
+      "cca2": "RU",
+      "tlds": [
+        "ru",
+        "su",
+        "\u0440\u0444"
+      ],
+      "continents": [
+        "Europe",
+        "Asia"
+      ],
       "flag": {
         "file": "ru.png",
         "colors": [
@@ -780,22 +1032,31 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_russia.svg",
       "name": "Russia",
-      "region": "Asia",
+      "region": "Europe",
       "phone": {
         "code": "7"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Russian",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "rus",
+          "name": "Russian"
+        }
+      ]
     },
     {
-      "domain": "sg",
+      "cca2": "SG",
+      "tlds": [
+        "sg",
+        "\u65B0\u52A0\u5761",
+        "\u0B9A\u0BBF\u0B99\u0BCD\u0B95\u0BAA\u0BCD\u0BAA\u0BC2\u0BB0\u0BCD"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "sg.png",
         "colors": [
@@ -808,26 +1069,42 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_singapore.svg",
       "name": "Singapore",
       "region": "Asia",
       "phone": {
         "code": "65"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "Chinese",
-          "Malay",
-          "Tamil"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "zho",
+          "name": "Chinese"
+        },
+        {
+          "code": "msa",
+          "name": "Malay"
+        },
+        {
+          "code": "tam",
+          "name": "Tamil"
+        }
+      ]
     },
     {
-      "domain": "kr",
+      "cca2": "KR",
+      "tlds": [
+        "kr",
+        "\uD55C\uAD6D"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "kr.png",
         "colors": [
@@ -841,22 +1118,31 @@
           "pepsi"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_south_korea.svg",
       "name": "South Korea",
       "region": "Asia",
       "phone": {
         "code": "82"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Korean",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "kor",
+          "name": "Korean"
+        }
+      ]
     },
     {
-      "domain": "lk",
+      "cca2": "LK",
+      "tlds": [
+        "lk",
+        "\u0B87\u0BB2\u0B99\u0BCD\u0B95\u0BC8",
+        "\u0DBD\u0D82\u0D9A\u0DCF"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "lk.png",
         "colors": [
@@ -871,24 +1157,35 @@
           "grid"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_sri_lanka.svg",
       "name": "Sri Lanka",
       "region": "Asia",
       "phone": {
         "code": "94"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "Sinhala",
-        "other": [
-          "Tamil"
-        ]
-      }
+      "languages": [
+        {
+          "code": "sin",
+          "name": "Sinhala"
+        },
+        {
+          "code": "tam",
+          "name": "Tamil"
+        }
+      ]
     },
     {
-      "domain": "tw",
+      "cca2": "TW",
+      "tlds": [
+        "tw",
+        "\u53F0\u7063",
+        "\u53F0\u6E7E"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "tw.png",
         "colors": [
@@ -901,22 +1198,30 @@
           "grid"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_taiwan.svg",
       "name": "Taiwan",
       "region": "Asia",
       "phone": {
         "code": "886"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Chinese",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "zho",
+          "name": "Chinese"
+        }
+      ]
     },
     {
-      "domain": "th",
+      "cca2": "TH",
+      "tlds": [
+        "th",
+        "\u0E44\u0E17\u0E22"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "th.png",
         "colors": [
@@ -928,22 +1233,30 @@
           "horizontal"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_thailand.svg",
       "name": "Thailand",
       "region": "Asia",
       "phone": {
         "code": "66"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "Thai",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "tha",
+          "name": "Thai"
+        }
+      ]
     },
     {
-      "domain": "ae",
+      "cca2": "AE",
+      "tlds": [
+        "ae",
+        "\u0645\u0627\u0631\u0627\u062A."
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "ae.png",
         "colors": [
@@ -957,22 +1270,29 @@
           "grid"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_united_arab_emirates.svg",
       "name": "United Arab Emirates",
       "region": "Asia",
       "phone": {
         "code": "971"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Arabic",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "ara",
+          "name": "Arabic"
+        }
+      ]
     },
     {
-      "domain": "vn",
+      "cca2": "VN",
+      "tlds": [
+        "vn"
+      ],
+      "continents": [
+        "Asia"
+      ],
       "flag": {
         "file": "vn.png",
         "colors": [
@@ -983,1457 +1303,2000 @@
           "star"
         ]
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_vietnam.svg",
       "name": "Vietnam",
       "region": "Asia",
       "phone": {
         "code": "84"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Vietnamese",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "vie",
+          "name": "Vietnamese"
+        }
+      ]
     },
     {
-      "domain": "al",
+      "cca2": "AL",
+      "tlds": [
+        "al"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "al.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_albania.svg",
       "name": "Albania",
       "region": "Europe",
       "phone": {
         "code": "355"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Albanian",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "sqi",
+          "name": "Albanian"
+        }
+      ]
     },
     {
-      "domain": "ad",
+      "cca2": "AD",
+      "tlds": [
+        "ad"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "ad.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_andorra.svg",
       "name": "Andorra",
       "region": "Europe",
       "phone": {
         "code": "376"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Catalan",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "cat",
+          "name": "Catalan"
+        }
+      ]
     },
     {
-      "domain": "at",
+      "cca2": "AT",
+      "tlds": [
+        "at"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "at.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_austria.svg",
       "name": "Austria",
       "region": "Europe",
       "phone": {
         "code": "43"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "German",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "de",
+          "name": "German"
+        }
+      ]
     },
     {
-      "domain": "be",
+      "cca2": "BE",
+      "tlds": [
+        "be"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "be.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_belgium.svg",
       "name": "Belgium",
       "region": "Europe",
       "phone": {
         "code": "32"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "German",
-        "other": [
-          "French",
-          "Dutch"
-        ]
-      }
+      "languages": [
+        {
+          "code": "deu",
+          "name": "German"
+        },
+        {
+          "code": "fra",
+          "name": "French"
+        },
+        {
+          "code": "nld",
+          "name": "Dutch"
+        }
+      ]
     },
     {
-      "domain": "bg",
+      "cca2": "BG",
+      "tlds": [
+        "bg"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "bg.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_bulgaria.svg",
       "name": "Bulgaria",
       "region": "Europe",
       "phone": {
         "code": "359"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Bulgarian",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "bul",
+          "name": "Bulgarian"
+        }
+      ]
     },
     {
-      "domain": "hr",
+      "cca2": "HR",
+      "tlds": [
+        "hr"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "hr.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_croatia.svg",
       "name": "Croatia",
       "region": "Europe",
       "phone": {
         "code": "385"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Croatian",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "hrv",
+          "name": "Croatian"
+        }
+      ]
     },
     {
-      "domain": "cz",
+      "cca2": "CZ",
+      "tlds": [
+        "cz"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "cz.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_czech_republic.svg",
       "name": "Czech Republic",
       "region": "Europe",
       "phone": {
         "code": "420"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Czech",
-        "other": [
-          "Slovak"
-        ]
-      }
+      "languages": [
+        {
+          "code": "ces",
+          "name": "Czech"
+        },
+        {
+          "code": "slk",
+          "name": "Slovak"
+        }
+      ]
     },
     {
-      "domain": "dk",
+      "cca2": "DK",
+      "tlds": [
+        "dk"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "dk.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_denmark.svg",
       "name": "Denmark",
       "region": "Europe",
       "phone": {
         "code": "45"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Danish",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "dan",
+          "name": "Danish"
+        }
+      ]
     },
     {
-      "domain": "ee",
+      "cca2": "EE",
+      "tlds": [
+        "ee"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "ee.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_estonia.svg",
       "name": "Estonia",
       "region": "Europe",
       "phone": {
         "code": "372"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Estonian",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "est",
+          "name": "Estonian"
+        }
+      ]
     },
     {
-      "domain": "fo",
+      "cca2": "FO",
+      "tlds": [
+        "fo"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "fo.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_faroe_islands.svg",
       "name": "Faroe Islands",
       "region": "Europe",
       "phone": {
         "code": "298"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Danish",
-        "other": [
-          "Faroese"
-        ]
-      }
+      "languages": [
+        {
+          "code": "dan",
+          "name": "Danish"
+        },
+        {
+          "code": "fao",
+          "name": "Faroese"
+        }
+      ]
     },
     {
-      "domain": "fi",
+      "cca2": "FI",
+      "tlds": [
+        "fi"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "fi.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_finland.svg",
       "name": "Finland",
       "region": "Europe",
       "phone": {
         "code": "358"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Finnish",
-        "other": [
-          "Swedish"
-        ]
-      }
+      "languages": [
+        {
+          "code": "fin",
+          "name": "Finnish"
+        },
+        {
+          "code": "swe",
+          "name": "Swedish"
+        }
+      ]
     },
     {
-      "domain": "fr",
+      "cca2": "FR",
+      "tlds": [
+        "fr"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "fr.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_france.svg",
       "name": "France",
       "region": "Europe",
       "phone": {
         "code": "33"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "French",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "fra",
+          "name": "French"
+        }
+      ]
     },
     {
-      "domain": "de",
+      "cca2": "DE",
+      "tlds": [
+        "de"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "de.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_germany.svg",
       "name": "Germany",
       "region": "Europe",
       "phone": {
         "code": "49"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "German",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "deu",
+          "name": "German"
+        }
+      ]
     },
     {
-      "domain": "gi",
+      "cca2": "GI",
+      "tlds": [
+        "gi"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "gi.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_gibraltar.svg",
       "name": "Gibraltar",
       "region": "Europe",
       "phone": {
         "code": "350"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "English",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        }
+      ]
     },
     {
-      "domain": "gr",
+      "cca2": "GR",
+      "tlds": [
+        "gr"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "gr.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_greece.svg",
       "name": "Greece",
       "region": "Europe",
       "phone": {
         "code": "30"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Greek",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "ell",
+          "name": "Greek"
+        }
+      ]
     },
     {
-      "domain": "hu",
+      "cca2": "HU",
+      "tlds": [
+        "hu"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "hu.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_hungary.svg",
       "name": "Hungary",
       "region": "Europe",
       "phone": {
         "code": "36"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Hungarian",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "hun",
+          "name": "Hungarian"
+        }
+      ]
     },
     {
-      "domain": "is",
+      "cca2": "IS",
+      "tlds": [
+        "is"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "is.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_iceland.svg",
       "name": "Iceland",
       "region": "Europe",
       "phone": {
         "code": "354"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Icelandic",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "isl",
+          "name": "Icelandic"
+        }
+      ]
     },
     {
-      "domain": "ie",
+      "cca2": "IE",
+      "tlds": [
+        "ie"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "ie.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_ireland.svg",
       "name": "Ireland",
       "region": "Europe",
       "phone": {
         "code": "353"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "Irish"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "gle",
+          "name": "Irish"
+        }
+      ]
     },
     {
-      "domain": "im",
+      "cca2": "IM",
+      "tlds": [
+        "im"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "im.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_isle_of_man.svg",
       "name": "Isle of Man",
       "region": "Europe",
       "phone": {
         "code": "44"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "Manx"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "glv",
+          "name": "Manx"
+        }
+      ]
     },
     {
-      "domain": "it",
+      "cca2": "IT",
+      "tlds": [
+        "it"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "it.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_italy.svg",
       "name": "Italy",
       "region": "Europe",
       "phone": {
         "code": "39"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Italian",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "ita",
+          "name": "Italian"
+        }
+      ]
     },
     {
-      "domain": "je",
+      "cca2": "JE",
+      "tlds": [
+        "je"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "je.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_jersey.svg",
       "name": "Jersey",
       "region": "Europe",
       "phone": {
         "code": "44"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "French",
-          "J\u00E8rriais"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "fra",
+          "name": "French"
+        },
+        {
+          "code": "nrf",
+          "name": "J\u00E8rriais"
+        }
+      ]
     },
     {
-      "domain": "lv",
+      "cca2": "LV",
+      "tlds": [
+        "lv"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "lv.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_latvia.svg",
       "name": "Latvia",
       "region": "Europe",
       "phone": {
         "code": "371"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Latvian",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "lav",
+          "name": "Latvian"
+        }
+      ]
     },
     {
-      "domain": "lt",
+      "cca2": "LT",
+      "tlds": [
+        "lt"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "lt.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_lithuania.svg",
       "name": "Lithuania",
       "region": "Europe",
       "phone": {
         "code": "370"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Lithuanian",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "lit",
+          "name": "Lithuanian"
+        }
+      ]
     },
     {
-      "domain": "lu",
+      "cca2": "LU",
+      "tlds": [
+        "lu"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "lu.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_luxembourg.svg",
       "name": "Luxembourg",
       "region": "Europe",
       "phone": {
         "code": "352"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "German",
-        "other": [
-          "French",
-          "Luxembourgish"
-        ]
-      }
+      "languages": [
+        {
+          "code": "deu",
+          "name": "German"
+        },
+        {
+          "code": "fra",
+          "name": "French"
+        },
+        {
+          "code": "ltz",
+          "name": "Luxembourgish"
+        }
+      ]
     },
     {
-      "domain": "mt",
+      "cca2": "MT",
+      "tlds": [
+        "mt"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "mt.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_malta.svg",
       "name": "Malta",
       "region": "Europe",
       "phone": {
         "code": "356"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "Maltese"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "mlt",
+          "name": "Maltese"
+        }
+      ]
     },
     {
-      "domain": "mc",
+      "cca2": "MC",
+      "tlds": [
+        "mc"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "mc.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_monaco.svg",
       "name": "Monaco",
       "region": "Europe",
       "phone": {
         "code": "377"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "French",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "fra",
+          "name": "French"
+        }
+      ]
     },
     {
-      "domain": "me",
+      "cca2": "ME",
+      "tlds": [
+        "me"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "me.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_montenegro.svg",
       "name": "Montenegro",
       "region": "Europe",
       "phone": {
         "code": "382"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Montenegrin",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "cnr",
+          "name": "Montenegrin"
+        }
+      ]
     },
     {
-      "domain": "nl",
+      "cca2": "NL",
+      "tlds": [
+        "nl"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "nl.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_netherlands.svg",
       "name": "Netherlands",
       "region": "Europe",
       "phone": {
         "code": "31"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "Dutch",
-          "Papiamento"
-        ]
-      }
+      "languages": [
+        {
+          "code": "nld",
+          "name": "Dutch"
+        }
+      ]
     },
     {
-      "domain": "mk",
+      "cca2": "MK",
+      "tlds": [
+        "mk"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "mk.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_north_macedonia.svg",
       "name": "North Macedonia",
       "region": "Europe",
       "phone": {
         "code": "389"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Macedonian",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "mkd",
+          "name": "Macedonian"
+        }
+      ]
     },
     {
-      "domain": "no",
+      "cca2": "NO",
+      "tlds": [
+        "no"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "no.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_norway.svg",
       "name": "Norway",
       "region": "Europe",
       "phone": {
         "code": "47"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Norwegian Nynorsk",
-        "other": [
-          "Norwegian Bokm\u00E5l",
-          "Sami"
-        ]
-      }
+      "languages": [
+        {
+          "code": "nno",
+          "name": "Norwegian Nynorsk"
+        },
+        {
+          "code": "nob",
+          "name": "Norwegian Bokm\u00E5l"
+        },
+        {
+          "code": "smi",
+          "name": "Sami"
+        }
+      ]
     },
     {
-      "domain": "pl",
+      "cca2": "PL",
+      "tlds": [
+        "pl"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "pl.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_poland.svg",
       "name": "Poland",
       "region": "Europe",
       "phone": {
         "code": "48"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Polish",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "pol",
+          "name": "Polish"
+        }
+      ]
     },
     {
-      "domain": "pt",
+      "cca2": "PT",
+      "tlds": [
+        "pt"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "pt.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_portugal.svg",
       "name": "Portugal",
       "region": "Europe",
       "phone": {
         "code": "351"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Portuguese",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "por",
+          "name": "Portuguese"
+        }
+      ]
     },
     {
-      "domain": "ro",
+      "cca2": "RO",
+      "tlds": [
+        "ro"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "ro.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_romania.svg",
       "name": "Romania",
       "region": "Europe",
       "phone": {
         "code": "40"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Romanian",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "ron",
+          "name": "Romanian"
+        }
+      ]
     },
     {
-      "domain": "sm",
+      "cca2": "SM",
+      "tlds": [
+        "sm"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "sm.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_san_marino.svg",
       "name": "San Marino",
       "region": "Europe",
       "phone": {
         "code": "378"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Italian",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "ita",
+          "name": "Italian"
+        }
+      ]
     },
     {
-      "domain": "rs",
+      "cca2": "RS",
+      "tlds": [
+        "rs",
+        "\u0441\u0440\u0431"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "rs.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_serbia.svg",
       "name": "Serbia",
       "region": "Europe",
       "phone": {
         "code": "381"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Serbian",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "srp",
+          "name": "Serbian"
+        }
+      ]
     },
     {
-      "domain": "sk",
+      "cca2": "SK",
+      "tlds": [
+        "sk"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "sk.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_slovakia.svg",
       "name": "Slovakia",
       "region": "Europe",
       "phone": {
         "code": "421"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Slovak",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "slk",
+          "name": "Slovak"
+        }
+      ]
     },
     {
-      "domain": "si",
+      "cca2": "SI",
+      "tlds": [
+        "si"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "si.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_slovenia.svg",
       "name": "Slovenia",
       "region": "Europe",
       "phone": {
         "code": "386"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Slovene",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "slv",
+          "name": "Slovene"
+        }
+      ]
     },
     {
-      "domain": "es",
+      "cca2": "ES",
+      "tlds": [
+        "es"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "es.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_spain.svg",
       "name": "Spain",
       "region": "Europe",
       "phone": {
         "code": "34"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Spanish",
-        "other": [
-          "Catalan",
-          "Basque",
-          "Galician"
-        ]
-      }
+      "languages": [
+        {
+          "code": "spa",
+          "name": "Spanish"
+        },
+        {
+          "code": "cat",
+          "name": "Catalan"
+        },
+        {
+          "code": "eus",
+          "name": "Basque"
+        },
+        {
+          "code": "glc",
+          "name": "Galician"
+        }
+      ]
     },
     {
-      "domain": "se",
+      "cca2": "SE",
+      "tlds": [
+        "se"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "se.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_sweden.svg",
       "name": "Sweden",
       "region": "Europe",
       "phone": {
         "code": "46"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Swedish",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "swe",
+          "name": "Swedish"
+        }
+      ]
     },
     {
-      "domain": "ch",
+      "cca2": "CH",
+      "tlds": [
+        "ch"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "ch.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_switzerland.svg",
       "name": "Switzerland",
       "region": "Europe",
       "phone": {
         "code": "41"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "French",
-        "other": [
-          "Swiss German",
-          "Italian",
-          "Romansh"
-        ]
-      }
+      "languages": [
+        {
+          "code": "fra",
+          "name": "French"
+        },
+        {
+          "code": "gsw",
+          "name": "Swiss German"
+        },
+        {
+          "code": "ita",
+          "name": "Italian"
+        },
+        {
+          "code": "roh",
+          "name": "Romansh"
+        }
+      ]
     },
     {
-      "domain": "tr",
+      "cca2": "TR",
+      "tlds": [
+        "tr"
+      ],
+      "continents": [
+        "Europe",
+        "Asia"
+      ],
       "flag": {
         "file": "tr.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_turkey.svg",
       "name": "Turkey",
-      "region": "Europe",
+      "region": "Asia",
       "phone": {
         "code": "90"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Turkish",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "tur",
+          "name": "Turkish"
+        }
+      ]
     },
     {
-      "domain": "ua",
+      "cca2": "UA",
+      "tlds": [
+        "ua",
+        "\u0443\u043A\u0440"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "ua.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_ukraine.svg",
       "name": "Ukraine",
       "region": "Europe",
       "phone": {
         "code": "380"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Ukrainian",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "ukr",
+          "name": "Ukrainian"
+        }
+      ]
     },
     {
-      "domain": "uk",
+      "cca2": "GB",
+      "tlds": [
+        "uk"
+      ],
+      "continents": [
+        "Europe"
+      ],
       "flag": {
         "file": "gb.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_uk.svg",
       "name": "United Kingdom",
       "region": "Europe",
       "phone": {
         "code": "44"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "English",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        }
+      ]
     },
     {
-      "domain": "ca",
+      "cca2": "CA",
+      "tlds": [
+        "ca"
+      ],
+      "continents": [
+        "North America"
+      ],
       "flag": {
         "file": "ca.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_canada.svg",
       "name": "Canada",
-      "region": "North America",
+      "region": "Americas",
       "phone": {
         "code": "1"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "French"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "fra",
+          "name": "French"
+        }
+      ]
     },
     {
-      "domain": "cw",
+      "cca2": "CW",
+      "tlds": [
+        "cw"
+      ],
+      "continents": [
+        "North America"
+      ],
       "flag": {
         "file": "cw.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_curacao.svg",
       "name": "Cura\u00E7ao",
-      "region": "North America",
+      "region": "Americas",
       "phone": {
         "code": "599"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "Dutch",
-          "Papiamento"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "nld",
+          "name": "Dutch"
+        },
+        {
+          "code": "pap",
+          "name": "Papiamento"
+        }
+      ]
     },
     {
-      "domain": "do",
+      "cca2": "DO",
+      "tlds": [
+        "do"
+      ],
+      "continents": [
+        "North America"
+      ],
       "flag": {
         "file": "do.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_dominican_republic.svg",
       "name": "Dominican Republic",
-      "region": "North America",
+      "region": "Americas",
       "phone": {
         "code": "1"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Spanish",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "spa",
+          "name": "Spanish"
+        }
+      ]
     },
     {
-      "domain": "gl",
+      "cca2": "GL",
+      "tlds": [
+        "gl"
+      ],
+      "continents": [
+        "North America"
+      ],
       "flag": {
         "file": "gl.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_greenland.svg",
       "name": "Greenland",
-      "region": "North America",
+      "region": "Americas",
       "phone": {
         "code": "299"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Greenlandic",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "kal",
+          "name": "Greenlandic"
+        }
+      ]
     },
     {
-      "domain": "gt",
+      "cca2": "GT",
+      "tlds": [
+        "gt"
+      ],
+      "continents": [
+        "North America"
+      ],
       "flag": {
         "file": "gt.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_guatemala.svg",
       "name": "Guatemala",
-      "region": "North America",
+      "region": "Americas",
       "phone": {
         "code": "502"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Spanish",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "spa",
+          "name": "Spanish"
+        }
+      ]
     },
     {
-      "domain": "mx",
+      "cca2": "MX",
+      "tlds": [
+        "mx"
+      ],
+      "continents": [
+        "North America"
+      ],
       "flag": {
         "file": "mx.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_mexico.svg",
       "name": "Mexico",
-      "region": "North America",
+      "region": "Americas",
       "phone": {
         "code": "52"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Spanish",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "spa",
+          "name": "Spanish"
+        }
+      ]
     },
     {
-      "domain": "pr",
+      "cca2": "PR",
+      "tlds": [
+        "pr"
+      ],
+      "continents": [
+        "North America"
+      ],
       "flag": {
         "file": "pr.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_puerto_rico.svg",
       "name": "Puerto Rico",
-      "region": "North America",
+      "region": "Americas",
       "phone": {
         "code": "1"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "Spanish"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "spa",
+          "name": "Spanish"
+        }
+      ]
     },
     {
-      "domain": "us",
+      "cca2": "US",
+      "tlds": [
+        "us"
+      ],
+      "continents": [
+        "North America"
+      ],
       "flag": {
         "file": "us.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_usa.svg",
       "name": "United States",
-      "region": "North America",
+      "region": "Americas",
       "phone": {
         "code": "1"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "English",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        }
+      ]
     },
     {
-      "domain": "vi",
+      "cca2": "VI",
+      "tlds": [
+        "vi"
+      ],
+      "continents": [
+        "North America"
+      ],
       "flag": {
-        "file": "vg.png",
+        "file": "vi.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_us_vi.svg",
       "name": "US Virgin Islands",
-      "region": "North America",
+      "region": "Americas",
       "phone": {
         "code": "1"
       },
       "road": {
-        "side": "Left"
+        "side": "right"
       },
-      "language": {
-        "main": "English",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        }
+      ]
     },
     {
-      "domain": "as",
+      "cca2": "AS",
+      "tlds": [
+        "as"
+      ],
+      "continents": [
+        "Oceania"
+      ],
       "flag": {
         "file": "as.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_american_samoa.svg",
       "name": "American Samoa",
       "region": "Oceania",
       "phone": {
         "code": "1"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "Samoan"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "smo",
+          "name": "Samoan"
+        }
+      ]
     },
     {
-      "domain": "au",
+      "cca2": "AU",
+      "tlds": [
+        "au"
+      ],
+      "continents": [
+        "Oceania"
+      ],
       "flag": {
         "file": "au.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_australia.svg",
       "name": "Australia",
       "region": "Oceania",
       "phone": {
         "code": "61"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "English",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        }
+      ]
     },
     {
-      "domain": "gu",
+      "cca2": "GU",
+      "tlds": [
+        "gu"
+      ],
+      "continents": [
+        "Oceania"
+      ],
       "flag": {
         "file": "gu.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_guam.svg",
       "name": "Guam",
       "region": "Oceania",
       "phone": {
         "code": "1"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Chamorro",
-        "other": [
-          "English",
-          "Spanish"
-        ]
-      }
+      "languages": [
+        {
+          "code": "cha",
+          "name": "Chamorro"
+        },
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "spa",
+          "name": "Spanish"
+        }
+      ]
     },
     {
-      "domain": "nz",
+      "cca2": "NZ",
+      "tlds": [
+        "nz"
+      ],
+      "continents": [
+        "Oceania"
+      ],
       "flag": {
         "file": "nz.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_nz.svg",
       "name": "New Zealand",
       "region": "Oceania",
       "phone": {
         "code": "64"
       },
       "road": {
-        "side": "Left"
+        "side": "left"
       },
-      "language": {
-        "main": "English",
-        "other": [
-          "M\u0101ori",
-          "New Zealand Sign Language"
-        ]
-      }
+      "languages": [
+        {
+          "code": "eng",
+          "name": "English"
+        },
+        {
+          "code": "mri",
+          "name": "M\u0101ori"
+        },
+        {
+          "code": "nzs",
+          "name": "New Zealand Sign Language"
+        }
+      ]
     },
     {
-      "domain": "mp",
+      "cca2": "MP",
+      "tlds": [
+        "mp"
+      ],
+      "continents": [
+        "Oceania"
+      ],
       "flag": {
         "file": "mp.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_northern_mariana_islands.svg",
       "name": "Northern Mariana Islands",
       "region": "Oceania",
       "phone": {
         "code": "1"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Carolinian",
-        "other": [
-          "Chamorro",
-          "English"
-        ]
-      }
+      "languages": [
+        {
+          "code": "cal",
+          "name": "Carolinian"
+        },
+        {
+          "code": "cha",
+          "name": "Chamorro"
+        },
+        {
+          "code": "eng",
+          "name": "English"
+        }
+      ]
     },
     {
-      "domain": "ar",
+      "cca2": "AR",
+      "tlds": [
+        "ar"
+      ],
+      "continents": [
+        "South America"
+      ],
       "flag": {
         "file": "ar.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_argentina.svg",
       "name": "Argentina",
-      "region": "South America",
+      "region": "Americas",
       "phone": {
         "code": "54"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Guaran\u00ED",
-        "other": [
-          "Spanish"
-        ]
-      }
+      "languages": [
+        {
+          "code": "grn",
+          "name": "Guaran\u00ED"
+        },
+        {
+          "code": "spa",
+          "name": "Spanish"
+        }
+      ]
     },
     {
-      "domain": "bo",
+      "cca2": "BO",
+      "tlds": [
+        "bo"
+      ],
+      "continents": [
+        "South America"
+      ],
       "flag": {
         "file": "bo.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_bolivia.svg",
       "name": "Bolivia",
-      "region": "South America",
+      "region": "Americas",
       "phone": {
         "code": "591"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Aymara",
-        "other": [
-          "Guaran\u00ED",
-          "Quechua",
-          "Spanish"
-        ]
-      }
+      "languages": [
+        {
+          "code": "aym",
+          "name": "Aymara"
+        },
+        {
+          "code": "grn",
+          "name": "Guaran\u00ED"
+        },
+        {
+          "code": "que",
+          "name": "Quechua"
+        },
+        {
+          "code": "spa",
+          "name": "Spanish"
+        }
+      ]
     },
     {
-      "domain": "br",
+      "cca2": "BR",
+      "tlds": [
+        "br"
+      ],
+      "continents": [
+        "South America"
+      ],
       "flag": {
         "file": "br.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_brazil.svg",
       "name": "Brazil",
-      "region": "South America",
+      "region": "Americas",
       "phone": {
         "code": "55"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Portuguese",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "por",
+          "name": "Portuguese"
+        }
+      ]
     },
     {
-      "domain": "cl",
+      "cca2": "CL",
+      "tlds": [
+        "cl"
+      ],
+      "continents": [
+        "South America"
+      ],
       "flag": {
         "file": "cl.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_chile.svg",
       "name": "Chile",
-      "region": "South America",
+      "region": "Americas",
       "phone": {
         "code": "56"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Spanish",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "spa",
+          "name": "Spanish"
+        }
+      ]
     },
     {
-      "domain": "co",
+      "cca2": "CO",
+      "tlds": [
+        "co"
+      ],
+      "continents": [
+        "South America"
+      ],
       "flag": {
         "file": "co.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_colombia.svg",
       "name": "Colombia",
-      "region": "South America",
+      "region": "Americas",
       "phone": {
         "code": "57"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Spanish",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "spa",
+          "name": "Spanish"
+        }
+      ]
     },
     {
-      "domain": "ec",
+      "cca2": "EC",
+      "tlds": [
+        "ec"
+      ],
+      "continents": [
+        "South America"
+      ],
       "flag": {
         "file": "ec.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_ecuador.svg",
       "name": "Ecuador",
-      "region": "South America",
+      "region": "Americas",
       "phone": {
         "code": "593"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Spanish",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "spa",
+          "name": "Spanish"
+        }
+      ]
     },
     {
-      "domain": "pe",
+      "cca2": "PE",
+      "tlds": [
+        "pe"
+      ],
+      "continents": [
+        "South America"
+      ],
       "flag": {
         "file": "pe.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_peru.svg",
       "name": "Peru",
-      "region": "South America",
+      "region": "Americas",
       "phone": {
         "code": "51"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Aymara",
-        "other": [
-          "Quechua",
-          "Spanish"
-        ]
-      }
+      "languages": [
+        {
+          "code": "aym",
+          "name": "Aymara"
+        },
+        {
+          "code": "que",
+          "name": "Quechua"
+        },
+        {
+          "code": "spa",
+          "name": "Spanish"
+        }
+      ]
     },
     {
-      "domain": "uy",
+      "cca2": "UY",
+      "tlds": [
+        "uy"
+      ],
+      "continents": [
+        "South America"
+      ],
       "flag": {
         "file": "uy.png",
         "colors": [],
         "features": []
       },
-      "icon": "https://geohints.com/Sources/Flags/flag_uruguay.svg",
       "name": "Uruguay",
-      "region": "South America",
+      "region": "Americas",
       "phone": {
         "code": "598"
       },
       "road": {
-        "side": "Right"
+        "side": "right"
       },
-      "language": {
-        "main": "Spanish",
-        "other": []
-      }
+      "languages": [
+        {
+          "code": "spa",
+          "name": "Spanish"
+        }
+      ]
     },
     {
-      "domain": "eu",
       "flag": {
         "colors": [],
         "features": []
       },
       "name": "European Union",
       "phone": {},
-      "road": {},
-      "language": {}
+      "road": {}
     }
   ]
 }

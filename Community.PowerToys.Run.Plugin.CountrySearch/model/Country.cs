@@ -2,12 +2,13 @@
 
 public class Country
 {
-    public string? domain { get; set; }
-    public Flag? flag { get; set; }
-    public string? icon { get; set; }
-    public string? name { get; set; }
-    public string? region { get; set; }
-    public Phone? phone { get; set; }
-    public Road? road { get; set; }
-    public Language? language { get; set; }
+    public string? Cca2 { get; set; }
+    public List<string>? Tlds { get; set; }
+    public List<string>? Continents { get; set; }
+    public Flag? Flag { get; set; }
+    public string? Name { get; set; }
+    public string? Region { get; set; }
+    public Phone? Phone { get; set; }
+    public Road? Road { get; set; }
+    public List<Language>? Languages { get; set; }
 }

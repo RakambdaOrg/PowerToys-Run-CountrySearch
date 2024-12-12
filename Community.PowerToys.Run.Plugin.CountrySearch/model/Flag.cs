@@ -2,7 +2,7 @@
 
 public class Flag
 {
-    public string? file { get; set; }
-    public List<string>? colors { get; set; }
-    public List<string>? features { get; set; }
+    public string? File { get; set; }
+    public List<string>? Colors { get; set; }
+    public List<string>? Features { get; set; }
 }

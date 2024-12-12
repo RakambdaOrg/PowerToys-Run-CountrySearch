@@ -2,6 +2,6 @@
 
 public class Language
 {
-    public string? main { get; set; }
-    public string[]? other { get; set; }
+    public string Code { get; set; }
+    public string Name { get; set; }
 }

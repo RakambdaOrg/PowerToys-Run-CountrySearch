@@ -1,23 +1,37 @@
 ﻿{
-  "countries": [
+  "countries" : [
     {
-      "domain": "d1",
-      "flag": {
-        "colors": [
+      "tlds" : [
+        "d1"
+      ],
+      "flag" : {
+        "file" : "i1.png",
+        "colors" : [
           "c1",
           "c2",
           "c3"
         ],
-        "features": [
+        "features" : [
           "f1"
         ]
       },
-      "icon": "i1",
-      "name": "id1",
-      "region": "r1",
-      "phone": {"code":""}, "road": {
-        "side": "s1"
-      }
+      "name" : "id1",
+      "region" : "r1",
+      "continents" : [
+        "c1"
+      ],
+      "phone" : {
+        "code" : "123"
+      },
+      "road" : {
+        "side" : "s1"
+      },
+      "languages" : [
+        {
+          "code" : "cl1",
+          "name" : "nl1"
+        }
+      ]
     }
   ]
 }

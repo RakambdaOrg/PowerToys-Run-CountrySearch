@@ -2,7 +2,7 @@
 
 public interface IExtractor
 {
-    string[] GetJsonPath();
+    string[] GetPropertyPath();
 
     bool OverrideIfSet()
     {

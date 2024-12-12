@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 using PowerToys_Run_CountrySearch_Generator.extractor;
 using PowerToys_Run_CountrySearch_Generator.extractor.mass;
 using PowerToys_Run_CountrySearch_Generator.extractor.single;
@@ -14,18 +15,19 @@ public static class MainGenerator
 {
     private static readonly IMassExtractor[] MassExtractors =
     [
-        new FlagImageMassExtractor(),
-        new DomainMassExtractor(),
-        new DrivingSideMassExtractor(),
-        new PhoneCodeMassExtractor(),
-        new RegionMassExtractor()
+        // new CountryMassExtractor(),
+        // new PhoneCodeMassExtractor(),
     ];
 
     private static readonly ISingleExtractor[] SingleExtractors =
     [
-        new MainLanguageSingleExtractor(),
-        new OtherLanguageSingleExtractor(),
-        new IconSingleExtractor()
+        // new Cca2SingleExtractor(),
+        // new ContinentSingleExtractor(),
+        // new FlagFileSingleExtractor(),
+        new LanguageSingleExtractor(),
+        // new RegionSingleExtractor(),
+        // new RoadSideSingleExtractor(),
+        new TldSingleExtractor()
     ];
 
     public static void Main()
@@ -38,7 +40,7 @@ public static class MainGenerator
             var extracted = extractor.Extract();
             foreach (var (countryName, value) in extracted)
             {
-                var country = countries.countries.Find(c => (c.name ?? "").Equals(countryName, StringComparison.InvariantCultureIgnoreCase));
+                var country = countries.Countries.Find(c => (c.Name ?? "").Equals(countryName, StringComparison.InvariantCultureIgnoreCase));
                 if (country == null)
                 {
                     if (!extractor.CreateNewCountry())
@@ -47,30 +49,25 @@ public static class MainGenerator
                     }
 
                     country = new Country();
-                    countries.countries.Add(country);
-                    country.name = countryName;
+                    countries.Countries.Add(country);
+                    country.Name = countryName;
                 }
 
                 InitEmptyObjects(country);
-                SetValue(country, value, extractor.GetJsonPath(), extractor.OverrideIfSet());
+                SetValue(country, value, extractor.GetPropertyPath(), extractor.OverrideIfSet());
             }
         }
 
         foreach (var extractor in SingleExtractors)
         {
-            foreach (var country in countries.countries)
+            foreach (var country in countries.Countries)
             {
                 var value = extractor.Extract(country);
-                SetValue(country, value, extractor.GetJsonPath(), extractor.OverrideIfSet());
+                SetValue(country, value, extractor.GetPropertyPath(), extractor.OverrideIfSet());
             }
         }
 
-        var jsonWriteOptions = new JsonSerializerOptions
-        {
-            WriteIndented = true,
-            DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull
-        };
-        var jsonContent = JsonSerializer.Serialize(countries, jsonWriteOptions);
+        var jsonContent = JsonSerializer.Serialize(countries, CountriesReader.JsonSerializerOptions);
         File.WriteAllText(countriesJsonPath, jsonContent);
     }
 
@@ -90,7 +87,7 @@ public static class MainGenerator
 
         if (jsonPath.Length == 0)
         {
-            throw new Exception("Invalid JSON path, missing parts");
+            return;
         }
 
         var property = obj.GetType().GetProperty(jsonPath[0]);
@@ -101,30 +98,50 @@ public static class MainGenerator
 
         if (jsonPath.Length == 1)
         {
-            if (!overrideIfSet)
-            {
-                var currentValue = property.GetValue(obj);
-                if (typeof(string).IsAssignableFrom(property.PropertyType) && !string.IsNullOrWhiteSpace((string?)currentValue))
-                {
-                    return;
-                }
-            }
-
-            property.SetValue(obj, value);
+            SetPropertyValue(property, obj, value, overrideIfSet);
             return;
         }
 
         SetValue(property.GetValue(obj), value, jsonPath[1..], overrideIfSet);
     }
 
+    private static void SetPropertyValue(PropertyInfo property, object obj, object value, bool overrideIfSet)
+    {
+        if (ShouldNotSetValue(property, obj, overrideIfSet))
+        {
+            return;
+        }
+
+        property.SetValue(obj, value);
+    }
+
+    private static bool ShouldNotSetValue(PropertyInfo property, object obj, bool overrideIfSet)
+    {
+        if (overrideIfSet)
+        {
+            return false;
+        }
+
+        var currentValue = property.GetValue(obj);
+        return currentValue switch
+        {
+            null => false,
+            string strValue => !string.IsNullOrWhiteSpace(strValue),
+            Array arrayValue => arrayValue.Length > 0,
+            List<object> listValue => listValue.Count > 0,
+            _ => false
+        };
+    }
+
     private static void InitEmptyObjects(Country country)
     {
-        country.flag ??= new Flag();
-        country.flag.colors ??= [];
-        country.flag.features ??= [];
-        country.phone ??= new Phone();
-        country.road ??= new Road();
-        country.language ??= new Language();
-        country.language.other ??= [];
+        country.Flag ??= new Flag();
+        country.Flag.Colors ??= [];
+        country.Flag.Features ??= [];
+        country.Tlds ??= [];
+        country.Phone ??= new Phone();
+        country.Road ??= new Road();
+        country.Languages ??= [];
+        country.Continents ??= [];
     }
 }

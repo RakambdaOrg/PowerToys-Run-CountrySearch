@@ -17,7 +17,7 @@ public class Main : IPlugin, IDisposable
     private string? IconPath { get; set; }
     private bool Disposed { get; set; }
 
-    private Countries? Countries { get; set; }
+    private CountriesSchema? Countries { get; set; }
     private Dictionary<string, IEnumerable<Country>>? Database { get; set; }
 
     public List<Result> Query(Query query)
@@ -43,8 +43,8 @@ public class Main : IPlugin, IDisposable
             .Select(country => new Result
                 {
                     QueryTextDisplay = query.Search,
-                    IcoPath = country.flag?.file?.Transform(p => Path.Join(PluginPath, "Images", "Flags", p)),
-                    Title = country.name,
+                    IcoPath = country.Flag?.File?.Transform(p => Path.Join(PluginPath, "Images", "Flags", p)),
+                    Title = country.Name,
                     SubTitle = Describe(country),
                     Score = 1,
                     Action = _ => true
@@ -56,8 +56,8 @@ public class Main : IPlugin, IDisposable
     private static string Describe(Country c)
     {
         return $"""
-                Region: {c.region} | Domain: {c.domain} | Phone code: +{c.phone?.code}
-                Road side: {c.road?.side} | Language: {c.language?.main}
+                Continent: {c.Continents?.FirstOrDefault()} | Region: {c.Region} | Domain: {c.Tlds?.FirstOrDefault()}
+                Road side: {c.Road?.Side} | Language: {c.Languages?.FirstOrDefault()?.Name} | Phone code: +{c.Phone?.Code}
                 """;
     }
 
@@ -82,16 +82,17 @@ public class Main : IPlugin, IDisposable
         Countries = CountriesReader.ReadFile(countriesJsonPath);
 
         Database = new Dictionary<string, IEnumerable<Country>>();
-        foreach (var country in Countries.countries.Where(country => !string.IsNullOrEmpty(country.name)))
+        foreach (var country in Countries.Countries.Where(country => !string.IsNullOrEmpty(country.Name)))
         {
-            AppendToKey(Database, country.name, country);
-            AppendToKey(Database, country.region, country);
-            AppendToKey(Database, country.domain, country);
-            AppendToKey(Database, country.phone?.code, country);
-            AppendToKey(Database, country.road?.side, country);
-            AppendToKey(Database, country.language?.main, country);
-            country.flag?.colors?.ForEach(val => AppendToKey(Database, val, country));
-            country.flag?.features?.ForEach(val => AppendToKey(Database, val, country));
+            AppendToKey(Database, country.Name, country);
+            AppendToKey(Database, country.Region, country);
+            AppendToKey(Database, country.Phone?.Code, country);
+            AppendToKey(Database, country.Road?.Side, country);
+            country.Tlds?.ForEach(val => AppendToKey(Database, val, country));
+            country.Languages?.ForEach(val => AppendToKey(Database, val.Name, country));
+            country.Continents?.ForEach(val => AppendToKey(Database, val, country));
+            country.Flag?.Colors?.ForEach(val => AppendToKey(Database, val, country));
+            country.Flag?.Features?.ForEach(val => AppendToKey(Database, val, country));
         }
     }
 

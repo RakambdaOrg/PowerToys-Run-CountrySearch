@@ -31,5 +31,9 @@ public class MainTests
         var results = _subject.Query(new Query("d1"));
         Assert.AreEqual(1, results.Count);
         Assert.AreEqual("id1", results[0].Title);
+        Assert.AreEqual("""
+                        Continent: c1 | Region: r1 | Domain: d1
+                        Road side: s1 | Language: nl1 | Phone code: +123
+                        """, results[0].SubTitle);
     }
 }

@@ -6,16 +6,16 @@ using PowerToys_Run_CountrySearch;
 
 namespace PowerToys_Run_CountrySearch_Generator.extractor.mass;
 
-public partial class RegionMassExtractor : IMassExtractor
+public partial class CountryMassExtractor : IMassExtractor
 {
     private static readonly Regex CountryRegex = CountryRegexGenerator();
 
     [GeneratedRegex("^(?<country>[^:]+)$")]
     private static partial Regex CountryRegexGenerator();
 
-    public string[] GetJsonPath()
+    public string[] GetPropertyPath()
     {
-        return ["region"];
+        return [];
     }
 
     public Dictionary<string, string> Extract()
@@ -28,20 +28,18 @@ public partial class RegionMassExtractor : IMassExtractor
         var areaDivs = doc.DocumentNode.SelectNodes("//div[boolean(@style)][child::h3]");
         foreach (var areaDiv in areaDivs)
         {
-            var areaName = areaDiv.SelectSingleNode("./h3").InnerText[..^1];
-
             var content = areaDiv.InnerText;
             var lines = content.Split('\n');
 
-            var areas = lines
+            var countries = lines
                 .Select(line => line.Trim())
                 .Select(line => CountryRegex.Match(line))
                 .Where(match => match.Success)
-                .Select(match => (match.Groups["country"].Value.Cleanup(), areaName));
+                .Select(match => match.Groups["country"].Value.Cleanup());
 
-            foreach (var (country, area) in areas)
+            foreach (var country in countries)
             {
-                values.TryAdd(country, area);
+                values.TryAdd(country, "fake");
             }
         }
 

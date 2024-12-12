@@ -13,9 +13,9 @@ public partial class PhoneCodeMassExtractor : IMassExtractor
     [GeneratedRegex(@"^\+(?<code>\d+)(\s+\d+)* - (?<country>(.+))$")]
     private static partial Regex PhoneCodeRegexGenerator();
 
-    public string[] GetJsonPath()
+    public string[] GetPropertyPath()
     {
-        return ["phone", "code"];
+        return ["Phone", "Code"];
     }
 
     public Dictionary<string, string> Extract()

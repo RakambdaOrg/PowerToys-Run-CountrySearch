@@ -1,63 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Net.Http;
-using System.Text;
-using System.Text.Json;
+﻿using System.Linq;
+using PowerToys_Run_CountrySearch.model;
 
 namespace PowerToys_Run_CountrySearch_Generator.extractor.single;
 
-public abstract class LanguageSingleExtractor
+public class LanguageSingleExtractor : RestCountriesExtractor, ISingleExtractor
 {
-    private static Dictionary<string, CountryInfoResponse>? _countriesInfo;
-
-    protected static CountryInfoResponse? GetCountryInfo(string code)
+    public string[] GetPropertyPath()
     {
-        if (_countriesInfo == null)
-        {
-            _countriesInfo = new Dictionary<string, CountryInfoResponse>();
-
-            var client = new HttpClient();
-            var request = new HttpRequestMessage
-            {
-                Method = HttpMethod.Get,
-                RequestUri = new Uri(new Uri("https://restcountries.com"), $"/v3.1/all?fields=tld,languages")
-            };
-
-            var response = client.Send(request);
-            if (!response.IsSuccessStatusCode)
-            {
-                return null;
-            }
-
-            using var stream = response.Content.ReadAsStream();
-            using var reader = new StreamReader(stream, Encoding.UTF8);
-            var content = reader.ReadToEnd();
-            var responseData = JsonSerializer.Deserialize<CountryInfoResponse[]>(content);
-            if (responseData == null)
-            {
-                return null;
-            }
-
-            foreach (var infoResponse in responseData)
-            {
-                foreach (var tld in infoResponse.tld)
-                {
-                    _countriesInfo.TryAdd(tld[1..], infoResponse);
-                }
-            }
-        }
-
-        _countriesInfo.TryGetValue(code, out var info);
-        return info;
+        return ["Languages"];
     }
 
-    protected class CountryInfoResponse(
-        Dictionary<string, string> languages,
-        string[] tld
-    )
+    public object? Extract(Country country)
     {
-        public Dictionary<string, string> languages { get; init; } = languages;
-        public string[] tld { get; init; } = tld;
+        return country.Cca2 == null
+            ? null
+            : GetCountryInfoByCca2(country.Cca2)?.Languages?.Select((entry, _) => new Language
+            {
+                Code = entry.Key,
+                Name = entry.Value
+            }).ToList();
     }
 }
