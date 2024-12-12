@@ -10,12 +10,4 @@ public class Country
     public Phone? phone { get; set; }
     public Road? road { get; set; }
     public Language? language { get; set; }
-
-    public string Describe()
-    {
-        return $"""
-                Region: {region} | Domain: {domain} | Phone code: +{phone?.code}
-                Road side: {road?.side} | Language: {language?.main}
-                """;
-    }
 }

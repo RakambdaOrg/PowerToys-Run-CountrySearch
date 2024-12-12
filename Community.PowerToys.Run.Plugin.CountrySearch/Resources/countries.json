@@ -23,7 +23,10 @@
         "side": "Left"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": [
+          "Tswana"
+        ]
       }
     },
     {
@@ -53,7 +56,10 @@
         "side": "Left"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": [
+          "Swazi"
+        ]
       }
     },
     {
@@ -81,7 +87,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Akan"
+        "main": "English",
+        "other": []
       }
     },
     {
@@ -109,7 +116,10 @@
         "side": "Left"
       },
       "language": {
-        "main": "Taita"
+        "main": "English",
+        "other": [
+          "Swahili"
+        ]
       }
     },
     {
@@ -135,7 +145,10 @@
         "side": "Left"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": [
+          "Sotho"
+        ]
       }
     },
     {
@@ -161,7 +174,10 @@
         "side": "Right"
       },
       "language": {
-        "main": "English"
+        "main": "French",
+        "other": [
+          "Malagasy"
+        ]
       }
     },
     {
@@ -186,7 +202,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": []
       }
     },
     {
@@ -213,7 +230,11 @@
         "side": "Right"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": [
+          "French",
+          "Kinyarwanda"
+        ]
       }
     },
     {
@@ -240,7 +261,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Jola-Fonyi"
+        "main": "French",
+        "other": []
       }
     },
     {
@@ -269,7 +291,19 @@
         "side": "Left"
       },
       "language": {
-        "main": "Afrikaans"
+        "main": "Afrikaans",
+        "other": [
+          "English",
+          "Southern Ndebele",
+          "Northern Sotho",
+          "Southern Sotho",
+          "Swazi",
+          "Tswana",
+          "Tsonga",
+          "Venda",
+          "Xhosa",
+          "Zulu"
+        ]
       }
     },
     {
@@ -296,7 +330,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Arabic"
+        "main": "Arabic",
+        "other": []
       }
     },
     {
@@ -324,7 +359,10 @@
         "side": "Left"
       },
       "language": {
-        "main": "Chiga"
+        "main": "English",
+        "other": [
+          "Swahili"
+        ]
       }
     },
     {
@@ -349,7 +387,8 @@
         "side": "Left"
       },
       "language": {
-        "main": "Bangla"
+        "main": "Bengali",
+        "other": []
       }
     },
     {
@@ -376,7 +415,8 @@
         "side": "Left"
       },
       "language": {
-        "main": "Dzongkha"
+        "main": "Dzongkha",
+        "other": []
       }
     },
     {
@@ -403,7 +443,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Khmer"
+        "main": "Khmer",
+        "other": []
       }
     },
     {
@@ -432,7 +473,8 @@
         "side": "Left"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": []
       }
     },
     {
@@ -460,7 +502,11 @@
         "side": "Left"
       },
       "language": {
-        "main": "Assamese"
+        "main": "English",
+        "other": [
+          "Hindi",
+          "Tamil"
+        ]
       }
     },
     {
@@ -485,7 +531,8 @@
         "side": "Left"
       },
       "language": {
-        "main": "Indonesian"
+        "main": "Indonesian",
+        "other": []
       }
     },
     {
@@ -511,7 +558,10 @@
         "side": "Right"
       },
       "language": {
-        "main": "Arabic"
+        "main": "Arabic",
+        "other": [
+          "Hebrew"
+        ]
       }
     },
     {
@@ -536,7 +586,8 @@
         "side": "Left"
       },
       "language": {
-        "main": "Japanese"
+        "main": "Japanese",
+        "other": []
       }
     },
     {
@@ -565,7 +616,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Arabic"
+        "main": "Arabic",
+        "other": []
       }
     },
     {
@@ -590,7 +642,10 @@
         "side": "Right"
       },
       "language": {
-        "main": "Kyrgyz"
+        "main": "Kyrgyz",
+        "other": [
+          "Russian"
+        ]
       }
     },
     {
@@ -617,7 +672,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Lao"
+        "main": "Lao",
+        "other": []
       }
     },
     {
@@ -646,7 +702,10 @@
         "side": "Left"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": [
+          "Malay"
+        ]
       }
     },
     {
@@ -673,7 +732,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Mongolian"
+        "main": "Mongolian",
+        "other": []
       }
     },
     {
@@ -701,7 +761,10 @@
         "side": "Right"
       },
       "language": {
-        "main": "Cebuano"
+        "main": "English",
+        "other": [
+          "Filipino"
+        ]
       }
     },
     {
@@ -727,7 +790,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Bashkir"
+        "main": "Russian",
+        "other": []
       }
     },
     {
@@ -754,7 +818,12 @@
         "side": "Left"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": [
+          "Chinese",
+          "Malay",
+          "Tamil"
+        ]
       }
     },
     {
@@ -782,7 +851,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Korean"
+        "main": "Korean",
+        "other": []
       }
     },
     {
@@ -811,7 +881,10 @@
         "side": "Left"
       },
       "language": {
-        "main": "Sinhala"
+        "main": "Sinhala",
+        "other": [
+          "Tamil"
+        ]
       }
     },
     {
@@ -838,7 +911,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Chinese (Traditional)"
+        "main": "Chinese",
+        "other": []
       }
     },
     {
@@ -864,7 +938,8 @@
         "side": "Left"
       },
       "language": {
-        "main": "Thai"
+        "main": "Thai",
+        "other": []
       }
     },
     {
@@ -892,7 +967,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Arabic"
+        "main": "Arabic",
+        "other": []
       }
     },
     {
@@ -917,7 +993,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Vietnamese"
+        "main": "Vietnamese",
+        "other": []
       }
     },
     {
@@ -937,7 +1014,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Albanian"
+        "main": "Albanian",
+        "other": []
       }
     },
     {
@@ -957,7 +1035,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Catalan"
+        "main": "Catalan",
+        "other": []
       }
     },
     {
@@ -977,7 +1056,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "German"
+        "main": "German",
+        "other": []
       }
     },
     {
@@ -997,7 +1077,11 @@
         "side": "Right"
       },
       "language": {
-        "main": "German"
+        "main": "German",
+        "other": [
+          "French",
+          "Dutch"
+        ]
       }
     },
     {
@@ -1017,7 +1101,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Bulgarian"
+        "main": "Bulgarian",
+        "other": []
       }
     },
     {
@@ -1037,7 +1122,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Croatian"
+        "main": "Croatian",
+        "other": []
       }
     },
     {
@@ -1057,7 +1143,10 @@
         "side": "Right"
       },
       "language": {
-        "main": "Czech"
+        "main": "Czech",
+        "other": [
+          "Slovak"
+        ]
       }
     },
     {
@@ -1077,7 +1166,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Danish"
+        "main": "Danish",
+        "other": []
       }
     },
     {
@@ -1097,7 +1187,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Estonian"
+        "main": "Estonian",
+        "other": []
       }
     },
     {
@@ -1117,7 +1208,10 @@
         "side": "Right"
       },
       "language": {
-        "main": "Faroese"
+        "main": "Danish",
+        "other": [
+          "Faroese"
+        ]
       }
     },
     {
@@ -1137,7 +1231,10 @@
         "side": "Right"
       },
       "language": {
-        "main": "English"
+        "main": "Finnish",
+        "other": [
+          "Swedish"
+        ]
       }
     },
     {
@@ -1157,7 +1254,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Breton"
+        "main": "French",
+        "other": []
       }
     },
     {
@@ -1177,7 +1275,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "German"
+        "main": "German",
+        "other": []
       }
     },
     {
@@ -1197,7 +1296,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": []
       }
     },
     {
@@ -1217,7 +1317,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Greek"
+        "main": "Greek",
+        "other": []
       }
     },
     {
@@ -1237,7 +1338,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Hungarian"
+        "main": "Hungarian",
+        "other": []
       }
     },
     {
@@ -1257,7 +1359,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Icelandic"
+        "main": "Icelandic",
+        "other": []
       }
     },
     {
@@ -1277,7 +1380,10 @@
         "side": "Left"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": [
+          "Irish"
+        ]
       }
     },
     {
@@ -1297,7 +1403,10 @@
         "side": "Left"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": [
+          "Manx"
+        ]
       }
     },
     {
@@ -1317,7 +1426,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Catalan"
+        "main": "Italian",
+        "other": []
       }
     },
     {
@@ -1337,7 +1447,11 @@
         "side": "Left"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": [
+          "French",
+          "J\u00E8rriais"
+        ]
       }
     },
     {
@@ -1357,7 +1471,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Latvian"
+        "main": "Latvian",
+        "other": []
       }
     },
     {
@@ -1377,7 +1492,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Lithuanian"
+        "main": "Lithuanian",
+        "other": []
       }
     },
     {
@@ -1397,7 +1513,11 @@
         "side": "Right"
       },
       "language": {
-        "main": "German"
+        "main": "German",
+        "other": [
+          "French",
+          "Luxembourgish"
+        ]
       }
     },
     {
@@ -1417,7 +1537,10 @@
         "side": "Left"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": [
+          "Maltese"
+        ]
       }
     },
     {
@@ -1437,7 +1560,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "French"
+        "main": "French",
+        "other": []
       }
     },
     {
@@ -1457,7 +1581,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Serbian (Cyrillic)"
+        "main": "Montenegrin",
+        "other": []
       }
     },
     {
@@ -1477,7 +1602,11 @@
         "side": "Right"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": [
+          "Dutch",
+          "Papiamento"
+        ]
       }
     },
     {
@@ -1497,7 +1626,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Macedonian"
+        "main": "Macedonian",
+        "other": []
       }
     },
     {
@@ -1517,7 +1647,11 @@
         "side": "Right"
       },
       "language": {
-        "main": "Norwegian Bokm\u00E5l"
+        "main": "Norwegian Nynorsk",
+        "other": [
+          "Norwegian Bokm\u00E5l",
+          "Sami"
+        ]
       }
     },
     {
@@ -1537,7 +1671,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Polish"
+        "main": "Polish",
+        "other": []
       }
     },
     {
@@ -1557,7 +1692,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Portuguese"
+        "main": "Portuguese",
+        "other": []
       }
     },
     {
@@ -1577,7 +1713,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Romanian"
+        "main": "Romanian",
+        "other": []
       }
     },
     {
@@ -1597,7 +1734,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Italian"
+        "main": "Italian",
+        "other": []
       }
     },
     {
@@ -1617,7 +1755,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Serbian (Cyrillic)"
+        "main": "Serbian",
+        "other": []
       }
     },
     {
@@ -1637,7 +1776,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Slovak"
+        "main": "Slovak",
+        "other": []
       }
     },
     {
@@ -1657,7 +1797,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "English"
+        "main": "Slovene",
+        "other": []
       }
     },
     {
@@ -1677,7 +1818,12 @@
         "side": "Right"
       },
       "language": {
-        "main": "Asturian"
+        "main": "Spanish",
+        "other": [
+          "Catalan",
+          "Basque",
+          "Galician"
+        ]
       }
     },
     {
@@ -1697,7 +1843,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "English"
+        "main": "Swedish",
+        "other": []
       }
     },
     {
@@ -1717,7 +1864,12 @@
         "side": "Right"
       },
       "language": {
-        "main": "German"
+        "main": "French",
+        "other": [
+          "Swiss German",
+          "Italian",
+          "Romansh"
+        ]
       }
     },
     {
@@ -1737,7 +1889,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Turkish"
+        "main": "Turkish",
+        "other": []
       }
     },
     {
@@ -1757,7 +1910,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Russian"
+        "main": "Ukrainian",
+        "other": []
       }
     },
     {
@@ -1777,7 +1931,8 @@
         "side": "Left"
       },
       "language": {
-        "main": "Welsh"
+        "main": "English",
+        "other": []
       }
     },
     {
@@ -1797,7 +1952,10 @@
         "side": "Right"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": [
+          "French"
+        ]
       }
     },
     {
@@ -1817,7 +1975,11 @@
         "side": "Right"
       },
       "language": {
-        "main": "Papiamentu"
+        "main": "English",
+        "other": [
+          "Dutch",
+          "Papiamento"
+        ]
       }
     },
     {
@@ -1837,7 +1999,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Spanish"
+        "main": "Spanish",
+        "other": []
       }
     },
     {
@@ -1857,7 +2020,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Danish"
+        "main": "Greenlandic",
+        "other": []
       }
     },
     {
@@ -1877,7 +2041,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Spanish"
+        "main": "Spanish",
+        "other": []
       }
     },
     {
@@ -1897,7 +2062,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Spanish"
+        "main": "Spanish",
+        "other": []
       }
     },
     {
@@ -1917,7 +2083,10 @@
         "side": "Right"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": [
+          "Spanish"
+        ]
       }
     },
     {
@@ -1937,7 +2106,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Cherokee"
+        "main": "English",
+        "other": []
       }
     },
     {
@@ -1957,7 +2127,8 @@
         "side": "Left"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": []
       }
     },
     {
@@ -1977,7 +2148,10 @@
         "side": "Right"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": [
+          "Samoan"
+        ]
       }
     },
     {
@@ -1997,7 +2171,8 @@
         "side": "Left"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": []
       }
     },
     {
@@ -2017,7 +2192,11 @@
         "side": "Right"
       },
       "language": {
-        "main": "English"
+        "main": "Chamorro",
+        "other": [
+          "English",
+          "Spanish"
+        ]
       }
     },
     {
@@ -2037,7 +2216,11 @@
         "side": "Left"
       },
       "language": {
-        "main": "English"
+        "main": "English",
+        "other": [
+          "M\u0101ori",
+          "New Zealand Sign Language"
+        ]
       }
     },
     {
@@ -2057,7 +2240,11 @@
         "side": "Right"
       },
       "language": {
-        "main": "English"
+        "main": "Carolinian",
+        "other": [
+          "Chamorro",
+          "English"
+        ]
       }
     },
     {
@@ -2077,7 +2264,10 @@
         "side": "Right"
       },
       "language": {
-        "main": "Spanish"
+        "main": "Guaran\u00ED",
+        "other": [
+          "Spanish"
+        ]
       }
     },
     {
@@ -2097,7 +2287,12 @@
         "side": "Right"
       },
       "language": {
-        "main": "Spanish"
+        "main": "Aymara",
+        "other": [
+          "Guaran\u00ED",
+          "Quechua",
+          "Spanish"
+        ]
       }
     },
     {
@@ -2117,7 +2312,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Spanish"
+        "main": "Portuguese",
+        "other": []
       }
     },
     {
@@ -2137,7 +2333,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Mapuche"
+        "main": "Spanish",
+        "other": []
       }
     },
     {
@@ -2157,7 +2354,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Spanish"
+        "main": "Spanish",
+        "other": []
       }
     },
     {
@@ -2177,7 +2375,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Spanish"
+        "main": "Spanish",
+        "other": []
       }
     },
     {
@@ -2197,7 +2396,11 @@
         "side": "Right"
       },
       "language": {
-        "main": "Spanish"
+        "main": "Aymara",
+        "other": [
+          "Quechua",
+          "Spanish"
+        ]
       }
     },
     {
@@ -2217,7 +2420,8 @@
         "side": "Right"
       },
       "language": {
-        "main": "Spanish"
+        "main": "Spanish",
+        "other": []
       }
     },
     {

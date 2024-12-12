@@ -45,12 +45,20 @@ public class Main : IPlugin, IDisposable
                     QueryTextDisplay = query.Search,
                     IcoPath = country.flag?.file?.Transform(p => Path.Join(PluginPath, "Images", "Flags", p)),
                     Title = country.name,
-                    SubTitle = country.Describe(),
+                    SubTitle = Describe(country),
                     Score = 1,
                     Action = _ => true
                 }
             )
             .ToList();
+    }
+
+    private static string Describe(Country c)
+    {
+        return $"""
+                Region: {c.region} | Domain: {c.domain} | Phone code: +{c.phone?.code}
+                Road side: {c.road?.side} | Language: {c.language?.main}
+                """;
     }
 
     public void Init(PluginInitContext context)

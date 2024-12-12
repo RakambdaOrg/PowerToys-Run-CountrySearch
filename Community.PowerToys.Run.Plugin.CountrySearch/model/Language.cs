@@ -3,4 +3,5 @@
 public class Language
 {
     public string? main { get; set; }
+    public string[]? other { get; set; }
 }

@@ -23,7 +23,8 @@ public static class MainGenerator
 
     private static readonly ISingleExtractor[] SingleExtractors =
     [
-        new LanguageSingleExtractor(),
+        new MainLanguageSingleExtractor(),
+        new OtherLanguageSingleExtractor(),
         new IconSingleExtractor()
     ];
 
@@ -73,11 +74,13 @@ public static class MainGenerator
         File.WriteAllText(countriesJsonPath, jsonContent);
     }
 
-    private static void SetValue(object? obj, string? value, string[] jsonPath, bool overrideIfSet)
+    private static void SetValue(object? obj, object? value, string[] jsonPath, bool overrideIfSet)
     {
-        if (string.IsNullOrEmpty(value))
+        switch (value)
         {
-            return;
+            case null:
+            case "":
+                return;
         }
 
         if (obj == null)
@@ -122,5 +125,6 @@ public static class MainGenerator
         country.phone ??= new Phone();
         country.road ??= new Road();
         country.language ??= new Language();
+        country.language.other ??= [];
     }
 }
