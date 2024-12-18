@@ -16,7 +16,7 @@ jobs:
           - x64
           - ARM64
     with:
-      dotnet-version: "8.0.x"
+      dotnet-version: "9.0.x"
       plugin-name: "CountrySearch"
       platform: ${{ matrix.platform }}
       solution-path: "PowerToys-Run-CountrySearch.sln"
