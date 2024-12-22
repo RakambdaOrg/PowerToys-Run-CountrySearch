@@ -134,7 +134,7 @@
         ],
         "features": [
           "horizontal",
-          "shield"
+          "badge"
         ]
       },
       "name": "Kenya",
@@ -1328,8 +1328,13 @@
       ],
       "flag": {
         "file": "al.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "black"
+        ],
+        "features": [
+          "bird"
+        ]
       },
       "name": "Albania",
       "region": "Europe",
@@ -1356,8 +1361,15 @@
       ],
       "flag": {
         "file": "ad.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "yellow",
+          "red"
+        ],
+        "features": [
+          "vertical",
+          "badge"
+        ]
       },
       "name": "Andorra",
       "region": "Europe",
@@ -1384,8 +1396,13 @@
       ],
       "flag": {
         "file": "at.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "white"
+        ],
+        "features": [
+          "horizontal"
+        ]
       },
       "name": "Austria",
       "region": "Europe",
@@ -1412,8 +1429,14 @@
       ],
       "flag": {
         "file": "be.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "black",
+          "yellow",
+          "red"
+        ],
+        "features": [
+          "vertical"
+        ]
       },
       "name": "Belgium",
       "region": "Europe",
@@ -1448,8 +1471,14 @@
       ],
       "flag": {
         "file": "bg.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "white",
+          "green",
+          "red"
+        ],
+        "features": [
+          "horizontal"
+        ]
       },
       "name": "Bulgaria",
       "region": "Europe",
@@ -1476,8 +1505,15 @@
       ],
       "flag": {
         "file": "hr.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "features": [
+          "horizontal",
+          "badge"
+        ]
       },
       "name": "Croatia",
       "region": "Europe",
@@ -1504,7 +1540,11 @@
       ],
       "flag": {
         "file": "cz.png",
-        "colors": [],
+        "colors": [
+          "blue",
+          "white",
+          "red"
+        ],
         "features": []
       },
       "name": "Czech Republic",
@@ -1536,8 +1576,14 @@
       ],
       "flag": {
         "file": "dk.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "white"
+        ],
+        "features": [
+          "grid",
+          "cross"
+        ]
       },
       "name": "Denmark",
       "region": "Europe",
@@ -1564,8 +1610,14 @@
       ],
       "flag": {
         "file": "ee.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "black",
+          "white"
+        ],
+        "features": [
+          "horizontal"
+        ]
       },
       "name": "Estonia",
       "region": "Europe",
@@ -1592,8 +1644,15 @@
       ],
       "flag": {
         "file": "fo.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "white",
+          "blue",
+          "red"
+        ],
+        "features": [
+          "grid",
+          "cross"
+        ]
       },
       "name": "Faroe Islands",
       "region": "Europe",
@@ -1624,8 +1683,14 @@
       ],
       "flag": {
         "file": "fi.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "white",
+          "blue"
+        ],
+        "features": [
+          "grid",
+          "cross"
+        ]
       },
       "name": "Finland",
       "region": "Europe",
@@ -1656,8 +1721,14 @@
       ],
       "flag": {
         "file": "fr.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "white",
+          "red"
+        ],
+        "features": [
+          "vertical"
+        ]
       },
       "name": "France",
       "region": "Europe",
@@ -1684,8 +1755,14 @@
       ],
       "flag": {
         "file": "de.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "black",
+          "red",
+          "yellow"
+        ],
+        "features": [
+          "horizontal"
+        ]
       },
       "name": "Germany",
       "region": "Europe",
@@ -1712,8 +1789,15 @@
       ],
       "flag": {
         "file": "gi.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "white"
+        ],
+        "features": [
+          "horizontal",
+          "castle",
+          "key"
+        ]
       },
       "name": "Gibraltar",
       "region": "Europe",
@@ -1740,8 +1824,14 @@
       ],
       "flag": {
         "file": "gr.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "white"
+        ],
+        "features": [
+          "horizontal",
+          "cross"
+        ]
       },
       "name": "Greece",
       "region": "Europe",
@@ -1768,8 +1858,14 @@
       ],
       "flag": {
         "file": "hu.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "white",
+          "green"
+        ],
+        "features": [
+          "horizontal"
+        ]
       },
       "name": "Hungary",
       "region": "Europe",
@@ -1796,8 +1892,15 @@
       ],
       "flag": {
         "file": "is.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "white",
+          "red"
+        ],
+        "features": [
+          "grid",
+          "cross"
+        ]
       },
       "name": "Iceland",
       "region": "Europe",
@@ -1824,8 +1927,14 @@
       ],
       "flag": {
         "file": "ie.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "green",
+          "white",
+          "orange"
+        ],
+        "features": [
+          "vertical"
+        ]
       },
       "name": "Ireland",
       "region": "Europe",
@@ -1856,8 +1965,14 @@
       ],
       "flag": {
         "file": "im.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "white",
+          "yellow"
+        ],
+        "features": [
+          "leg"
+        ]
       },
       "name": "Isle of Man",
       "region": "Europe",
@@ -1888,8 +2003,14 @@
       ],
       "flag": {
         "file": "it.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "green",
+          "white",
+          "red"
+        ],
+        "features": [
+          "vertical"
+        ]
       },
       "name": "Italy",
       "region": "Europe",
@@ -1916,8 +2037,16 @@
       ],
       "flag": {
         "file": "je.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "white",
+          "red",
+          "yellow"
+        ],
+        "features": [
+          "cross",
+          "badge",
+          "crown"
+        ]
       },
       "name": "Jersey",
       "region": "Europe",
@@ -1952,8 +2081,13 @@
       ],
       "flag": {
         "file": "lv.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "white"
+        ],
+        "features": [
+          "horizontal"
+        ]
       },
       "name": "Latvia",
       "region": "Europe",
@@ -1980,8 +2114,14 @@
       ],
       "flag": {
         "file": "lt.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "yellow",
+          "green",
+          "red"
+        ],
+        "features": [
+          "horizontal"
+        ]
       },
       "name": "Lithuania",
       "region": "Europe",
@@ -2008,8 +2148,14 @@
       ],
       "flag": {
         "file": "lu.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "features": [
+          "horizontal"
+        ]
       },
       "name": "Luxembourg",
       "region": "Europe",
@@ -2044,8 +2190,15 @@
       ],
       "flag": {
         "file": "mt.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "white",
+          "red",
+          "gray"
+        ],
+        "features": [
+          "vertical",
+          "cross"
+        ]
       },
       "name": "Malta",
       "region": "Europe",
@@ -2076,8 +2229,13 @@
       ],
       "flag": {
         "file": "mc.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "white"
+        ],
+        "features": [
+          "horizontal"
+        ]
       },
       "name": "Monaco",
       "region": "Europe",
@@ -2104,8 +2262,14 @@
       ],
       "flag": {
         "file": "me.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "yellow"
+        ],
+        "features": [
+          "bird",
+          "crown"
+        ]
       },
       "name": "Montenegro",
       "region": "Europe",
@@ -2132,8 +2296,14 @@
       ],
       "flag": {
         "file": "nl.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "blue",
+          "white"
+        ],
+        "features": [
+          "horizontal"
+        ]
       },
       "name": "Netherlands",
       "region": "Europe",
@@ -2160,8 +2330,13 @@
       ],
       "flag": {
         "file": "mk.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "yellow"
+        ],
+        "features": [
+          "sun"
+        ]
       },
       "name": "North Macedonia",
       "region": "Europe",
@@ -2188,8 +2363,15 @@
       ],
       "flag": {
         "file": "no.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "white",
+          "red"
+        ],
+        "features": [
+          "grid",
+          "cross"
+        ]
       },
       "name": "Norway",
       "region": "Europe",
@@ -2224,8 +2406,13 @@
       ],
       "flag": {
         "file": "pl.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "white",
+          "red"
+        ],
+        "features": [
+          "horizontal"
+        ]
       },
       "name": "Poland",
       "region": "Europe",
@@ -2252,8 +2439,16 @@
       ],
       "flag": {
         "file": "pt.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "green",
+          "red",
+          "yellow"
+        ],
+        "features": [
+          "vertical",
+          "ball",
+          "badge"
+        ]
       },
       "name": "Portugal",
       "region": "Europe",
@@ -2280,8 +2475,14 @@
       ],
       "flag": {
         "file": "ro.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "yellow",
+          "red"
+        ],
+        "features": [
+          "vertical"
+        ]
       },
       "name": "Romania",
       "region": "Europe",
@@ -2308,8 +2509,16 @@
       ],
       "flag": {
         "file": "sm.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "white"
+        ],
+        "features": [
+          "flower",
+          "frame",
+          "crown",
+          "tower"
+        ]
       },
       "name": "San Marino",
       "region": "Europe",
@@ -2337,8 +2546,17 @@
       ],
       "flag": {
         "file": "rs.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "blue",
+          "white"
+        ],
+        "features": [
+          "crown",
+          "badge",
+          "bird",
+          "horizontal"
+        ]
       },
       "name": "Serbia",
       "region": "Europe",
@@ -2365,8 +2583,17 @@
       ],
       "flag": {
         "file": "sk.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "white",
+          "blue",
+          "red"
+        ],
+        "features": [
+          "cross",
+          "badge",
+          "cross",
+          "horizontal"
+        ]
       },
       "name": "Slovakia",
       "region": "Europe",
@@ -2393,8 +2620,17 @@
       ],
       "flag": {
         "file": "si.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "white",
+          "blue",
+          "red"
+        ],
+        "features": [
+          "badge",
+          "mountain",
+          "star",
+          "horizontal"
+        ]
       },
       "name": "Slovenia",
       "region": "Europe",
@@ -2421,8 +2657,15 @@
       ],
       "flag": {
         "file": "es.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "yellow"
+        ],
+        "features": [
+          "crown",
+          "badge",
+          "horizontal"
+        ]
       },
       "name": "Spain",
       "region": "Europe",
@@ -2461,8 +2704,14 @@
       ],
       "flag": {
         "file": "se.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "yellow",
+          "blue"
+        ],
+        "features": [
+          "grid",
+          "cross"
+        ]
       },
       "name": "Sweden",
       "region": "Europe",
@@ -2489,8 +2738,14 @@
       ],
       "flag": {
         "file": "ch.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "white"
+        ],
+        "features": [
+          "cross",
+          "square"
+        ]
       },
       "name": "Switzerland",
       "region": "Europe",
@@ -2530,8 +2785,14 @@
       ],
       "flag": {
         "file": "tr.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "white"
+        ],
+        "features": [
+          "moon",
+          "star"
+        ]
       },
       "name": "Turkey",
       "region": "Asia",
@@ -2559,8 +2820,13 @@
       ],
       "flag": {
         "file": "ua.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "yellow"
+        ],
+        "features": [
+          "horizontal"
+        ]
       },
       "name": "Ukraine",
       "region": "Europe",
@@ -2587,8 +2853,14 @@
       ],
       "flag": {
         "file": "gb.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "white",
+          "blue",
+          "red"
+        ],
+        "features": [
+          "cross"
+        ]
       },
       "name": "United Kingdom",
       "region": "Europe",
@@ -2615,8 +2887,14 @@
       ],
       "flag": {
         "file": "ca.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "white",
+          "red"
+        ],
+        "features": [
+          "leaf",
+          "vertical"
+        ]
       },
       "name": "Canada",
       "region": "Americas",
@@ -2647,8 +2925,15 @@
       ],
       "flag": {
         "file": "cw.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "white",
+          "yellow"
+        ],
+        "features": [
+          "star",
+          "horizontal"
+        ]
       },
       "name": "Cura\u00E7ao",
       "region": "Americas",
@@ -2683,8 +2968,16 @@
       ],
       "flag": {
         "file": "do.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "blue",
+          "white"
+        ],
+        "features": [
+          "badge",
+          "grid",
+          "cross"
+        ]
       },
       "name": "Dominican Republic",
       "region": "Americas",
@@ -2711,8 +3004,14 @@
       ],
       "flag": {
         "file": "gl.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "white"
+        ],
+        "features": [
+          "horizontal",
+          "circle"
+        ]
       },
       "name": "Greenland",
       "region": "Americas",
@@ -2739,8 +3038,14 @@
       ],
       "flag": {
         "file": "gt.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "white"
+        ],
+        "features": [
+          "vertical",
+          "leaf"
+        ]
       },
       "name": "Guatemala",
       "region": "Americas",
@@ -2767,8 +3072,15 @@
       ],
       "flag": {
         "file": "mx.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "green",
+          "white",
+          "red"
+        ],
+        "features": [
+          "bird",
+          "vertical"
+        ]
       },
       "name": "Mexico",
       "region": "Americas",
@@ -2795,8 +3107,15 @@
       ],
       "flag": {
         "file": "pr.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "features": [
+          "star",
+          "horizontal"
+        ]
       },
       "name": "Puerto Rico",
       "region": "Americas",
@@ -2827,8 +3146,15 @@
       ],
       "flag": {
         "file": "us.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "features": [
+          "star",
+          "horizontal"
+        ]
       },
       "name": "United States",
       "region": "Americas",
@@ -2855,8 +3181,18 @@
       ],
       "flag": {
         "file": "vi.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "white",
+          "yellow",
+          "blue",
+          "green"
+        ],
+        "features": [
+          "bird",
+          "badge",
+          "arrow",
+          "plant"
+        ]
       },
       "name": "US Virgin Islands",
       "region": "Americas",
@@ -2883,8 +3219,14 @@
       ],
       "flag": {
         "file": "as.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "red",
+          "white"
+        ],
+        "features": [
+          "bird"
+        ]
       },
       "name": "American Samoa",
       "region": "Oceania",
@@ -2915,8 +3257,15 @@
       ],
       "flag": {
         "file": "au.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "red",
+          "white"
+        ],
+        "features": [
+          "star",
+          "cross"
+        ]
       },
       "name": "Australia",
       "region": "Oceania",
@@ -2943,8 +3292,14 @@
       ],
       "flag": {
         "file": "gu.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "blue"
+        ],
+        "features": [
+          "frame",
+          "palm"
+        ]
       },
       "name": "Guam",
       "region": "Oceania",
@@ -2979,8 +3334,15 @@
       ],
       "flag": {
         "file": "nz.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "red",
+          "white"
+        ],
+        "features": [
+          "star",
+          "cross"
+        ]
       },
       "name": "New Zealand",
       "region": "Oceania",
@@ -3015,8 +3377,13 @@
       ],
       "flag": {
         "file": "mp.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "white"
+        ],
+        "features": [
+          "star"
+        ]
       },
       "name": "Northern Mariana Islands",
       "region": "Oceania",
@@ -3051,8 +3418,14 @@
       ],
       "flag": {
         "file": "ar.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "white"
+        ],
+        "features": [
+          "sun",
+          "horizontal"
+        ]
       },
       "name": "Argentina",
       "region": "Americas",
@@ -3083,8 +3456,15 @@
       ],
       "flag": {
         "file": "bo.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "yellow",
+          "green"
+        ],
+        "features": [
+          "badge",
+          "horizontal"
+        ]
       },
       "name": "Bolivia",
       "region": "Americas",
@@ -3123,8 +3503,14 @@
       ],
       "flag": {
         "file": "br.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "green",
+          "yellow",
+          "blue"
+        ],
+        "features": [
+          "planet"
+        ]
       },
       "name": "Brazil",
       "region": "Americas",
@@ -3151,8 +3537,15 @@
       ],
       "flag": {
         "file": "cl.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "blue",
+          "white",
+          "red"
+        ],
+        "features": [
+          "grid",
+          "star"
+        ]
       },
       "name": "Chile",
       "region": "Americas",
@@ -3179,8 +3572,14 @@
       ],
       "flag": {
         "file": "co.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "yellow",
+          "blue",
+          "red"
+        ],
+        "features": [
+          "horizontal"
+        ]
       },
       "name": "Colombia",
       "region": "Americas",
@@ -3207,8 +3606,17 @@
       ],
       "flag": {
         "file": "ec.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "yellow",
+          "blue",
+          "red"
+        ],
+        "features": [
+          "horizontal",
+          "badge",
+          "bird",
+          "frame"
+        ]
       },
       "name": "Ecuador",
       "region": "Americas",
@@ -3235,8 +3643,13 @@
       ],
       "flag": {
         "file": "pe.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "red",
+          "white"
+        ],
+        "features": [
+          "vertical"
+        ]
       },
       "name": "Peru",
       "region": "Americas",
@@ -3271,8 +3684,15 @@
       ],
       "flag": {
         "file": "uy.png",
-        "colors": [],
-        "features": []
+        "colors": [
+          "white",
+          "blue",
+          "yellow"
+        ],
+        "features": [
+          "sun",
+          "horizontal"
+        ]
       },
       "name": "Uruguay",
       "region": "Americas",

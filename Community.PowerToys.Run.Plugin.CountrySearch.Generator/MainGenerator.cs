@@ -15,18 +15,18 @@ public static class MainGenerator
 {
     private static readonly IMassExtractor[] MassExtractors =
     [
-        // new CountryMassExtractor(),
-        // new PhoneCodeMassExtractor(),
+        new CountryMassExtractor(),
+        new PhoneCodeMassExtractor(),
     ];
 
     private static readonly ISingleExtractor[] SingleExtractors =
     [
-        // new Cca2SingleExtractor(),
-        // new ContinentSingleExtractor(),
-        // new FlagFileSingleExtractor(),
+        new Cca2SingleExtractor(),
+        new ContinentSingleExtractor(),
+        new FlagFileSingleExtractor(),
         new LanguageSingleExtractor(),
-        // new RegionSingleExtractor(),
-        // new RoadSideSingleExtractor(),
+        new RegionSingleExtractor(),
+        new RoadSideSingleExtractor(),
         new TldSingleExtractor()
     ];
 
