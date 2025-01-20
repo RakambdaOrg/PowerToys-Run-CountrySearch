@@ -22,7 +22,7 @@
     </ItemGroup>
     
     <ItemGroup>
-        <PackageReference Include="Community.PowerToys.Run.Plugin.Dependencies" Version="0.86.0" />
+        <PackageReference Include="Community.PowerToys.Run.Plugin.Dependencies" Version="0.87.1" />
     </ItemGroup>
 
     <ItemGroup>
